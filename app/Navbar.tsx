@@ -6,10 +6,16 @@ import Link from "next/link";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  const handleSectionClick = (section: string) => {
+    setActiveSection(section);
+    setMenuOpen(false);
+  };
+
   return (
     <>
       <nav className="bg-white w-full shadow-md fixed z-20 ">
@@ -28,32 +34,47 @@ const Navbar = () => {
           </div>
           <div className="lg:flex  text-white hidden">
             <Link
-              href="/"
-              className="flex items-center px-5 py-6 hover:bg-hover hover:text-primary text-black"
+              href="#about"
+              className={`flex items-center px-5 py-6 transition-all hover:bg-hover text-black ${
+              activeSection === "about" ? "font-bold text-primary font-primary border-b-2 border-primary" : ""
+            }`}
+            onClick={() => handleSectionClick("about")}
             >
               About Us
             </Link>
             <Link
-              href="/"
-              className="flex items-center px-5 py-6  hover:bg-hover hover:text-primary text-black"
+              href="#challenges"
+              className={`flex items-center px-5 py-6 transition-all hover:bg-hover text-black ${
+                activeSection === "challenges" ? "font-bold text-primary font-primary border-b-2 border-primary" : ""
+              }`}
+              onClick={() => handleSectionClick("challenges")}
             >
               Challenges
             </Link>
             <Link
-              href="/"
-              className="flex items-center px-5 py-6  hover:bg-hover hover:text-primary text-black"
+              href="#solutions"
+              className={`flex items-center px-5 py-6 transition-all hover:bg-hover text-black ${
+                activeSection === "solutions" ? "font-bold text-primary font-primary border-b-2 border-primary" : ""
+              }`}
+              onClick={() => handleSectionClick("solutions")}
             >
               Solutions
             </Link>
             <Link
-              href="/"
-              className="flex items-center px-5 py-6 hover:bg-hover hover:text-primary text-black"
+              href="#goals"
+              className={`flex items-center px-5 py-6 transition-all hover:bg-hover text-black ${
+                activeSection === "goals" ? "font-bold text-primary font-primary border-b-2 border-primary" : ""
+              }`}
+              onClick={() => handleSectionClick("goals")}
             >
               Goals
             </Link>
             <Link
-              href="/"
-              className="flex items-center px-5 py-6  hover:bg-hover hover:text-primary text-black"
+              href="#contact"
+              className={`flex items-center px-5 py-6 transition-all hover:bg-hover text-black ${
+                activeSection === "contact" ? "font-bold text-primary font-primary border-b-2 border-primary" : ""
+              }`}
+              onClick={() => handleSectionClick("contact")}
             >
               Contact Us
             </Link>
@@ -72,8 +93,11 @@ const Navbar = () => {
         {menuOpen && (
           <div className="lg:hidden flex justify-center items-center h-screen flex-col text-black gap-2.5">
             <Link
-              href="/"
-              className="flex items-center justify-center hover:bg-hover w-full py-3 px-6 hover:font-bold hover:text-primary hover:border-b-2 hover:border-primary transition-all"
+              href="#about"
+              className={`flex items-center justify-center w-full px-6 py-3 transition-all hover:bg-hover text-black ${
+                activeSection === "about" ? "font-bold text-primary font-primary border-b-2 border-primary" : ""
+              }`}
+              onClick={() => handleSectionClick("about")}
             >
               About Us
             </Link>
