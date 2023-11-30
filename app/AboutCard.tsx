@@ -9,7 +9,7 @@ const AboutCard = () => {
             Culture & Core <span className="text-pink">Values</span>
           </h1>
           <div className="flex justify-center items-center py-12 ">
-            <div className="gap-7 flex lg:flex-nowrap flex-wrap px-20 w-full">
+            <div className="gap-7 flex justify-center items-center lg:flex-nowrap flex-wrap px-20 w-full">
               <div className="w-[290px] h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
                 <div className="w-20 h-20 justify-center items-center inline-flex">
                 <Image src={"/square.svg"} alt="" width={80} height={80} />
@@ -23,6 +23,7 @@ const AboutCard = () => {
                   </div>
                 </div>
               </div>
+              
               <div className="w-[290px] h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
                 <div className="w-20 h-20 justify-center items-center inline-flex">
                 <Image src={"/circle.svg"} alt="" width={80} height={80} />
@@ -37,6 +38,7 @@ const AboutCard = () => {
                   </div>
                 </div>
               </div>
+
               <div className="w-[290px] h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
                 <div className="w-20 h-20 justify-center items-center inline-flex">
                 <Image src={"/flower.svg"} alt="" width={80} height={80} />
@@ -51,6 +53,7 @@ const AboutCard = () => {
                   </div>
                 </div>
               </div>
+
               <div className="w-[290px] h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
                 <div className="w-20 h-20 justify-center items-center inline-flex">
                 <Image src={"/line.svg"} alt="" width={80} height={80} />
