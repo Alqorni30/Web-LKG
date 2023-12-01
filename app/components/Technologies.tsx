@@ -8,7 +8,7 @@ const Technologies = () => {
           <span className="text-pink">Techno</span>
           logies
         </h1>
-        <div className="justify-center items-center gap-5 flex flex-wrap">
+        <div className="justify-center items-center content-center gap-5 flex flex-wrap">
           <div className="justify-start items-start flex">
             <div className="px-[30px] py-2.5 bg-white rounded-[99px] shadow justify-start items-center gap-5 flex">
               <div className="w-[25px] h-[25px] justify-center items-center flex">
@@ -41,7 +41,7 @@ const Technologies = () => {
                   />
                 </div>
               </div>
-              <div className="text-zinc-700 text-base font-normal font-['Inter'] leading-tight">
+              <div className="text-zinc-700 text-base font-normal leading-tight">
                 Kotlin
               </div>
             </div>
@@ -59,7 +59,7 @@ const Technologies = () => {
                   />
                 </div>
               </div>
-              <div className="text-zinc-700 text-base font-normal font-['Inter'] leading-tight">
+              <div className="text-zinc-700 text-base font-normal leading-tight">
                 Angular
               </div>
             </div>
@@ -77,15 +77,15 @@ const Technologies = () => {
                   />
                 </div>
               </div>
-              <div className="text-zinc-700 text-base font-normal font-['Inter'] leading-tight">
+              <div className="text-zinc-700 text-base font-normal leading-tight">
                 Springboot
               </div>
             </div>
           </div>
           <div className="justify-start items-start flex">
-            <div className="px-[30px] py-2.5 bg-white rounded-[99px] shadow justify-start items-center gap-5 flex">
-              <div className="w-[25px] h-[25px] justify-center items-center flex">
-                <div className="w-[25px] h-[25px] justify-center items-center inline-flex">
+            <div className="px-[30px] py-2.5 bg-white rounded-[99px] shadow justify-start items-center gap-[16px] flex">
+              <div className="w-[30px] h-[30px] justify-center items-center flex">
+                <div className="w-[30px] h-[30px] justify-center items-center inline-flex">
                   <Image
                     className="w-[30px] h-[30px]"
                     width={30}
@@ -95,7 +95,7 @@ const Technologies = () => {
                   />
                 </div>
               </div>
-              <div className="text-zinc-700 text-base font-normal font-['Inter'] leading-tight">
+              <div className="text-zinc-700 text-base font-normal leading-tight">
                 Java
               </div>
             </div>
@@ -105,15 +105,15 @@ const Technologies = () => {
               <div className="w-[25px] h-[25px] justify-center items-center flex">
                 <div className="w-[25px] h-[25px] justify-center items-center inline-flex">
                   <Image
-                    className="w-[26.60px] h-[30px]"
-                    width={26}
-                    height={30}
+                    className="w-[25.60px] h-250px]"
+                    width={25}
+                    height={25}
                     alt="Node js"
                     src="/logotech/nodejs 1.svg"
                   />
                 </div>
               </div>
-              <div className="text-zinc-700 text-base font-normal font-['Inter'] leading-tight">
+              <div className="text-zinc-700 text-base font-normal leading-tight">
                 Node JS
               </div>
             </div>
@@ -131,7 +131,7 @@ const Technologies = () => {
                   />
                 </div>
               </div>
-              <div className="text-zinc-700 text-base font-normal font-['Inter'] leading-tight">
+              <div className="text-zinc-700 text-base font-normal leading-tight">
                 Vue JS
               </div>
             </div>
@@ -149,7 +149,7 @@ const Technologies = () => {
                   />
                 </div>
               </div>
-              <div className="text-zinc-700 text-base font-normal font-['Inter'] leading-tight">
+              <div className="text-zinc-700 text-base font-normal leading-tight">
                 React
               </div>
             </div>
@@ -168,7 +168,7 @@ const Technologies = () => {
                   />
                 </div>
               </div>
-              <div className="text-zinc-700 text-base font-normal font-['Inter'] leading-tight">
+              <div className="text-zinc-700 text-base font-normal leading-tight">
                 Python
               </div>
             </div>
@@ -183,30 +183,30 @@ const Technologies = () => {
                     width={30}
                     height={30}
                     alt="huawei cloud"
-                    src="/logotech/huawei 1.svg"
+                    src="/logotech/huawei.svg"
                   />
                 </div>
               </div>
-              <div className="text-zinc-700 text-base font-normal font-['Inter'] leading-tight">
+              <div className="text-zinc-700 text-base font-normal leading-tight">
                 Huawei Cloud
               </div>
             </div>
           </div>
 
           <div className="justify-start items-start flex">
-            <div className="px-[30px] py-2.5 bg-white rounded-[99px] shadow justify-start items-center gap-[35px] flex">
-              <div className="w-[25px] h-[25px] justify-end items-center flex">
-                <div className="w-[42.86px] h-[25px] justify-center items-center inline-flex">
+            <div className="px-[30px] py-2.5 bg-white rounded-[99px] shadow justify-start items-center gap-[16px] flex">
+              <div className="w-[42px] h-[25px] justify-end items-center flex">
+                <div className=" justify-center items-center inline-flex">
                   <Image
-                    className="w-[52.24px] h-[30px]"
-                    width={52}
-                    height={30}
+                    className="w-[42.24px] h-[25px]"
+                    width={42}
+                    height={25}
                     alt="docker"
-                    src="/logotech/docker 1.svg"
+                    src="/logotech/docker.svg"
                   />
                 </div>
               </div>
-              <div className="text-zinc-700 text-base font-normal font-['Inter'] leading-tight">
+              <div className="text-zinc-700 text-base font-normal leading-tight">
                 Docker
               </div>
             </div>
@@ -225,12 +225,11 @@ const Technologies = () => {
                   />
                 </div>
               </div>
-              <div className="text-zinc-700 text-base font-normal font-['Inter'] leading-tight">
+              <div className="text-zinc-700 text-base font-normal leading-tight">
                 Kubernetes
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </>
