@@ -1,8 +1,8 @@
-import Hero from "./Hero";
-import AboutUs from "./AboutUs";
-import AboutCard from "./AboutCard";
-import Challenges from "./Challenges";
-import Solutions from "./Solutions";
+import Hero from "./components/Hero";
+import AboutUs from "./components/AboutUs";
+import AboutCard from "./components/AboutCard";
+import Challenges from "./components/Challenges";
+import Solutions from "./components/Solutions";
 
 export default function Home() {
   return (
