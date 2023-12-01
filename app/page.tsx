@@ -3,6 +3,7 @@ import AboutUs from "./components/AboutUs";
 import AboutCard from "./components/AboutCard";
 import Challenges from "./components/Challenges";
 import Solutions from "./components/Solutions";
+import Technologies from "./components/Technologies";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutCard />
       <Challenges />
       <Solutions/>
+      <Technologies/>
     </>
   );
 }
