@@ -25,18 +25,18 @@ const Solutions = () => {
           </p>
         </div>
 
-        <div className="justify-start items-start inline-flex">
+        <div className="justify-start items-start inline-flex gap-[50px]">
           <div className="flex-col justify-start items-start gap-[30px]">
             <button
               onClick={() => handleButtonClick("projectManagement")}
-              className="flex justify-start items-start"
+              className="flex justify-start items-start "
             >
               <div
                 className={`p-6  ${
                   selectedSection === "projectManagement"
                     ? "border-l-2 border-orange-400 transition-all"
                     : ""
-                } flex items-center gap-5`}
+                } flex items-center gap-5 hover:bg-orange-muda`}
               >
                 <div className="w-20 h-20 flex justify-center items-center">
                   <Image
@@ -47,25 +47,25 @@ const Solutions = () => {
                   />
                 </div>
                 <div className="flex-col justify-start text-start items-start gap-2.5">
-                  <div className="text-zinc-700 text-base font-bold leading-tight">
+                  <p className="text-zinc-700 text-base font-bold leading-tight">
                     Project Management
-                  </div>
-                  <div className="text-zinc-700 text-base font-normal leading-tight">
+                  </p>
+                  <p className="text-zinc-700 text-base font-normal leading-tight">
                     Solution
-                  </div>
+                  </p>
                 </div>
               </div>
             </button>
             <button
               onClick={() => handleButtonClick("humanResources")}
-              className="flex justify-start items-start"
+              className="flex justify-start items-start "
             >
               <div
                 className={`p-6 ${
                   selectedSection === "humanResources"
                     ? "border-l-2 border-orange-400 transition-all"
                     : ""
-                } flex justify-start items-center gap-5`}
+                } flex justify-start items-center gap-5 hover:bg-orange-muda `}
               >
                 <div className="w-20 h-20 flex justify-center items-center">
                   <Image
@@ -87,14 +87,14 @@ const Solutions = () => {
             </button>
             <button
               onClick={() => handleButtonClick("serviceFunctions")}
-              className="flex justify-start items-start"
+              className="flex justify-start items-start "
             >
               <div
                 className={`p-6 ${
                   selectedSection === "serviceFunctions"
                     ? "border-l-2 border-orange-400 transition-all"
                     : ""
-                } flex justify-start items-center gap-5`}
+                } flex justify-start items-center gap-5 hover:bg-orange-muda`}
               >
                 <div className="w-20 h-20 flex justify-center items-center">
                   <Image
@@ -116,7 +116,7 @@ const Solutions = () => {
             </button>
           </div>
 
-          <hr className="border h-96 border-r-2 border-hover border-dashed mx-12 hidden md:block" />
+          <hr className="border h-96 border-r-2 border-hover border-dashed hidden md:block" />
           {selectedSection === "projectManagement" && (
             <div className=" flex-col justify-start items-start gap-5 inline-flex">
               <div className="flex justify-start items-start gap-[50px]">

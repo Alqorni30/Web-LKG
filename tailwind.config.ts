@@ -17,7 +17,8 @@ const config: Config = {
       'hover': '#EEF1F9',
       'primary': '#5976C6',
       'pink': '#D86D94',
-      'card': '#F3F8FA'
+      'card': '#F3F8FA',
+      'orange-muda' : '#FCF4EB',
     }
     },
   },

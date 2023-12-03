@@ -4,6 +4,7 @@ import AboutCard from "./components/AboutCard";
 import Challenges from "./components/Challenges";
 import Solutions from "./components/Solutions";
 import Technologies from "./components/Technologies";
+import Goals from "./components/Goals";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Challenges />
       <Solutions/>
       <Technologies/>
+      <Goals/>
     </>
   );
 }
