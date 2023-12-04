@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Web-LKG',
   description: 'Layanan Kolaborasi global',
+  icons: {
+    icon: '/Logo lkg only 1.png'
+  }
 }
 
 export default function RootLayout({
