@@ -3,7 +3,7 @@ import Image from "next/image";
 const OurWork = () => {
   return (
     <>
-      <div className=" px-20 flex-col justify-start items-center gap-[50px] flex">
+      <div className="px-20 flex-col justify-start items-center gap-[50px] flex">
         <div className="text-center">
           <span className="text-rose-400 text-[40px] font-extrabold  leading-[50px]">
             Our{" "}
@@ -36,8 +36,8 @@ const OurWork = () => {
           />
           <Image
             className="w-[721.32px] h-[350px] left-[74px] top-[96px] absolute"
-            width={206}
-            height={300}
+            width={721}
+            height={350}
             alt="mockup"
             src="/ourwork/mockup.png"
           />

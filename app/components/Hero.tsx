@@ -9,7 +9,7 @@ const Hero = () => {
           <h3 className="lg:text-3xl md:text-2xl text-xl font-bold text-pink">
             #Your Trusted
           </h3>
-          <h1 className="font-bold lg:text-5xl md:text-4xl text-2xl">
+          <h1 className="font-bold lg:text-5xl md:text-4xl text-2xl ">
             IT Outsourcing Sollution
           </h1>
           <p className="lg:text-sm lg:w-1/3 w-80 text-xs">
