@@ -10,7 +10,7 @@ const Solutions = () => {
   };
   return (
     <>
-      <div id="solutions" className="pt-36 pb-24 px-20 ">
+      <div id="solutions" className="pt-36 pb-24 lg:px-20 md:px-20 px-10">
         <div className="flex flex-col justify-center items-center mb-20">
           <h3 className="font-bold text-center text-primary lg:text-2xl text-base">
             Introducing
@@ -25,8 +25,55 @@ const Solutions = () => {
           </p>
         </div>
 
-        <div className="justify-start items-start inline-flex gap-[50px]">
-          <div className="flex-col justify-start items-start gap-[30px]">
+        <div className="flex overflow-x-scroll pb-10 hide-scroll-bar lg:hidden">
+          <div className="flex justify-center items-center content-center gap-5 lg:flex-wrap flex-nowrap">
+            <button
+              onClick={() => handleButtonClick("projectManagement")}
+              className="w-[159px] h-[50px] px-5 py-2.5 bg-orange-50 rounded-[10px] border border-orange-400 justify-center items-center gap-2.5 inline-flex"
+            >
+              <div>
+                <span className="text-black text-xs font-semibold font-['Inter'] leading-[15px]">
+                  Project Management
+                  <br />
+                </span>
+                <span className="text-black text-xs font-normal font-['Inter'] leading-[15px]">
+                  Solution
+                </span>
+              </div>
+            </button>
+            <button
+              onClick={() => handleButtonClick("humanResources")}
+              className="w-[159px] h-[50px] px-5 py-2.5 bg-orange-50 rounded-[10px] border border-orange-400 justify-center items-center gap-2.5 inline-flex"
+            >
+              <div>
+                <span className="text-black text-xs font-semibold font-['Inter'] leading-[15px]">
+                  Human Resources
+                  <br />
+                </span>
+                <span className="text-black text-xs font-normal font-['Inter'] leading-[15px]">
+                  Solution
+                </span>
+              </div>
+            </button>
+            <button
+              onClick={() => handleButtonClick("serviceFunctions")}
+              className="w-[159px] h-[50px] px-5 py-2.5 bg-orange-50 rounded-[10px] border border-orange-400 justify-center items-center gap-2.5 inline-flex"
+            >
+              <div>
+                <span className="text-black text-xs font-semibold font-['Inter'] leading-[15px]">
+                  Service Functions
+                  <br />
+                </span>
+                <span className="text-black text-xs font-normal font-['Inter'] leading-[15px]">
+                  as Needed
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <div className="justify-start items-start flex gap-[50px]">
+          <div className="flex-col justify-start items-start gap-[30px] lg:flex md:flex hidden">
             <button
               onClick={() => handleButtonClick("projectManagement")}
               className="flex justify-start items-start "
@@ -118,8 +165,8 @@ const Solutions = () => {
 
           <hr className="border h-96 border-r-2 border-hover border-dashed hidden md:block" />
           {selectedSection === "projectManagement" && (
-            <div className=" flex-col justify-start items-start gap-5 inline-flex">
-              <div className="flex justify-start items-start gap-[50px]">
+            <div className=" flex-col justify-start items-start gap-5 flex">
+              <div className="flex lg:flex-row flex-col lg:justify-start lg:items-start  gap-[50px]">
                 <div className="w-36 h-30 pl-4 pr-4 justify-center items-center">
                   <Image
                     src={"/layer 1.svg"}
@@ -128,8 +175,8 @@ const Solutions = () => {
                     height={120}
                   />
                 </div>
-                <div className="flex-col justify-start items-start gap-5">
-                  <div>
+                <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-5">
+                  <div className="">
                     <p className="text-zinc-700 text-sm font-normal leading-normal">
                       #End-to-end{" "}
                       <span className="text-zinc-700 text-sm font-bold leading-normal">
@@ -154,6 +201,7 @@ const Solutions = () => {
                   </div>
                 </div>
               </div>
+
               <div className="w-[785px] h-[284px] relative">
                 <div className="w-[210px] h-[100px] left-0 top-0 absolute">
                   <h2 className="left-0 top-0 absolute text-indigo-500 text-[32px] font-bold  leading-10">
@@ -283,25 +331,24 @@ const Solutions = () => {
             </div>
           )}
           {selectedSection === "humanResources" && (
-            <div className="flex-col justify-start items-start gap-10 inline-flex ">
-              <div className="justify-start items-start gap-12 inline-flex">
-                <div className="w-36 h-28 pl-0.5 pr-px justify-center items-center flex">
-                  <Image
-                    src={"/programmer.svg"}
-                    alt="layer"
-                    width={144}
-                    height={112}
-                  />
-                </div>
-                <div className="flex-col justify-start items-start gap-1 inline-flex">
+            <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-10 flex ">
+              <div className=" justify-center items-center gap-12 lg:flex">
+                <Image
+                  className="mx-auto pb-3"
+                  src={"/programmer.svg"}
+                  alt="layer"
+                  width={144}
+                  height={112}
+                />
+                <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-1 inline-flex">
                   <p className="text-zinc-700 text-sm font-normal leading-normal">
                     #Talk to us for{" "}
                     <span className="text-zinc-700 text-sm font-bold leading-normal">
                       Services Function as Needed
                     </span>
                   </p>
-                  <div className="flex-col justify-start items-start gap-2.5 flex">
-                    <h3 className="text-zinc-700 text-2xl font-bold leading-[30px]">
+                  <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-2.5 flex">
+                    <h3 className="text-zinc-700 text-center text-2xl font-bold leading-[30px]">
                       Driving Business Digital{" "}
                       <span className="text-pink text-2xl font-bold leading-[30px]">
                         Transform
@@ -314,7 +361,7 @@ const Solutions = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-wrap justify-start items-start gap-8">
+              <div className="flex flex-wrap lg:justify-start lg:items-start justify-center items-center gap-8">
                 <div className="flex-col gap-2.5 inline-flex">
                   <div className="w-56 px-2.5 py-0.5 bg-indigo-500 justify-start items-center gap-2.5 inline-flex">
                     <p className="text-white text-sm font-bold leading-normal">
@@ -375,40 +422,35 @@ const Solutions = () => {
             </div>
           )}
           {selectedSection === "serviceFunctions" && (
-            <div className="flex-col justify-start items-start gap-10 inline-flex">
-              <div className="justify-start items-start gap-[50px] inline-flex">
-                <div className="w-[145.71px] h-[120px] pl-[15.54px] pr-[15.67px] justify-center items-center flex">
-                  <Image
-                    src={"/videocall.svg"}
-                    alt="videocall"
-                    width={145}
-                    height={120}
-                  />
-                </div>
-                <div className="flex-col justify-start items-start gap-[5px] inline-flex">
-                  <p>
-                    <span className="text-zinc-700 text-sm font-normal leading-normal">
-                      #Talk to us for{" "}
-                    </span>
-                    <span className="text-zinc-700 text-sm font-bold leading-normal">
-                      Human Resource Solution
-                    </span>
+            <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-10 flex">
+              <div className=" justify-center items-center gap-12 lg:flex">
+                <Image
+                  className="mx-auto pb-3"
+                  src={"/videocall.svg"}
+                  alt="videocall"
+                  width={145}
+                  height={120}
+                />
+                <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-[5px] inline-flex">
+                  <p className="text-zinc-700 text-sm font-normal leading-normal">
+                    #Talk to us for{" "}
+                    <span className="text-zinc-700 font-bold">Human Resource Solution</span>
                   </p>
-                  <div className="flex-col justify-start items-start gap-2.5 flex">
-                    <h3 className="text-start text-zinc-700 text-2xl font-bold leading-[30px]">
+                  <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-2.5 flex">
+                    <h3 className=" text-zinc-700 text-2xl font-bold leading-[30px]">
                       Resources Tailored to{" "}
                       <span className="text-pink text-2xl font-bold leading-[30px]">
                         ur Needs
                       </span>
                     </h3>
-                    <p className="w-[589px] text-zinc-700 text-sm font-normal leading-normal">
+                    <p className="w-80 text-zinc-700 text-sm font-normal leading-normal">
                       Looking for a team of expert or someone who will fit
                       perfectly in your own team? Then you should talk to me.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="flex flex-wrap w-[787px] justify-start items-start gap-[27px]">
+              <div className="flex flex-wrap lg:w-[787px] w-[380px] lg:justify-start lg:items-start justify-center items-center gap-[27px]">
                 <div className="px-5 py-2.5 bg-white rounded-[5px] shadow justify-start items-center gap-2.5 flex">
                   <div className="w-[60px] h-[60px] pl-[4.50px] pr-[4.33px] py-[3.75px] justify-center items-center flex">
                     <div className="w-[51.17px] h-[52.50px] relative">

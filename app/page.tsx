@@ -4,7 +4,6 @@ import CultureCore from "./components/CultureCore";
 import Challenges from "./components/Challenges";
 import Solutions from "./components/Solutions";
 import Technologies from "./components/Technologies";
-// import Goals from "./components/Goals";
 import OurWork from "./components/OurWork";
 import OurPartner from "./components/OurPartner";
 import Goals1 from "./components/Goals1";

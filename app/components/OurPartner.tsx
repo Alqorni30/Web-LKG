@@ -5,30 +5,30 @@ const OurPartner = () => {
     <>
       <div className="px-20 py-[150px] flex-col justify-start items-center gap-[50px] flex">
         <div className="">
-          <h3 className="text-center text-indigo-500 text-[23px] font-bold  leading-[30px]">
+          <h3 className="text-center text-indigo-500 lg:text-[23px] text-base  font-bold  leading-[30px]">
             Successful Collaboration With
           </h3>
-          <h1 className="text-pink text-center text-[40px] font-bold  leading-[50px]">
+          <h1 className="text-pink text-center lg:text-[40px] text-xl font-bold  leading-[50px]">
             Our <span className="text-zinc-700 font-bold">Partner</span>
           </h1>
         </div>
-        <div className=" justify-start items-start gap-[200px] flex">
+        <div className="flex lg:w-full w-[430px] justify-between items-start px-[30px] py-0">
           <Image
-            className="w-[256.20px] h-20"
+            className="lg:w-[256.20px] lg:h-20 w-[80.06px] h-[25px]"
             width={256}
             height={80}
             alt="simpananku"
             src="/ourpartner/logo aviana sinar abadi.png"
           />
           <Image
-            className="w-[311.69px] h-20"
+            className="lg:w-[311.69px] lg:h-20 w-[97.40px] h-[25px]"
             width={311}
             height={80}
             alt="simpananku"
             src="/ourpartner/logo irma biru.png"
           />
           <Image
-            className="w-[298.41px] h-20"
+            className="lg:w-[298.41px] lg:h-20 w-[93.25px] h-[25px]"
             width={298}
             height={80}
             alt="simpananku"
