@@ -61,7 +61,7 @@ const Hero = () => {
             alt="alt"
             width={80}
             height={80}
-            className="z-10 mt-8 mb-16  lg:hidden"
+            className="z-10  mb-16  lg:hidden"
           />
         </div>
       </div>

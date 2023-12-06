@@ -25,7 +25,7 @@ const Solutions = () => {
           </p>
         </div>
 
-        <div className="flex overflow-x-scroll pb-10 hide-scroll-bar lg:hidden">
+        <div className="flex overflow-x-scroll pb-10 hide-scroll-bar lg:hidden md:hidden">
           <div className="flex justify-center items-center content-center gap-5 lg:flex-wrap flex-nowrap">
             <button
               onClick={() => handleButtonClick("projectManagement")}
@@ -165,129 +165,106 @@ const Solutions = () => {
 
           <hr className="border h-96 border-r-2 border-hover border-dashed hidden md:block" />
           {selectedSection === "projectManagement" && (
-            <div className=" flex-col justify-start items-start gap-5 flex">
-              <div className="flex lg:flex-row flex-col lg:justify-start lg:items-start  gap-[50px]">
-                <div className="w-36 h-30 pl-4 pr-4 justify-center items-center">
-                  <Image
-                    src={"/layer 1.svg"}
-                    alt="layer"
-                    width={145}
-                    height={120}
-                  />
-                </div>
-                <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-5">
-                  <div className="">
-                    <p className="text-zinc-700 text-sm font-normal leading-normal">
-                      #End-to-end{" "}
-                      <span className="text-zinc-700 text-sm font-bold leading-normal">
-                        Project Management Solution
+            <div className=" flex-col lg:justify-start lg:items-start justify-center items-center gap-5 flex">
+              <div className="lg:flex justify-center items-center gap-12">
+                <Image
+                  className="mx-auto pb-3"
+                  src={"/layer 1.svg"}
+                  alt="layer"
+                  width={142}
+                  height={112}
+                />
+                <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-1 inline-flex lg:text-start text-center">
+                  <p className="text-zinc-700 text-sm font-normal leading-normal">
+                    #End-to-end{" "}
+                    <span className="text-zinc-700 text-sm font-bold leading-normal">
+                      Project Management Solution
+                    </span>
+                  </p>
+                  <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-2.5 flex">
+                    <h3 className="text-zinc-700 text-2xl font-bold leading-[30px]">
+                      How we make IT{" "}
+                      <span className="text-pink text-2xl font-bold leading-[30px]">
+                        Works
                       </span>
-                    </p>
-                  </div>
-                  <div className="flex-col justify-start items-start gap-2.5">
-                    <div className="text-start">
-                      <h3 className="text-zinc-700 text-2xl font-bold leading-[30px]">
-                        How we make IT{" "}
-                        <span className="text-pink text-2xl font-bold leading-[30px]">
-                          Works
-                        </span>
-                      </h3>
-                    </div>
+                    </h3>
                     <p className="w-full text-zinc-700 text-sm font-normal leading-normal">
-                      Experienced teams and an agile framework, we prioritize
-                      the commercial goals of the client to deliver the highest
+                      Experienced teams and a agile framework, we prioritise the
+                      commercial goals of the client to deliver the highest
                       business value.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="w-[785px] h-[284px] relative">
-                <div className="w-[210px] h-[100px] left-0 top-0 absolute">
-                  <h2 className="left-0 top-0 absolute text-indigo-500 text-[32px] font-bold  leading-10">
+              <div className="lg:w-[785px]  lg:h-[284px] relative flex  justify-center items-center lg:p-0 pb-[450px]">
+                <div className="w-[210px] h-[100px] lg:left-0 -left-[200px] top-0 absolute">
+                  <h2 className="lg:left-0 left-5 top-0 absolute text-indigo-500 text-base lg:text-[32px]  font-bold  leading-10">
                     01
                   </h2>
-                  <p className="left-[48px] top-[8px] absolute text-zinc-700 text-sm font-bold  leading-normal">
+                  <p className="left-[48px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Product Discovery
                   </p>
-                  <p className="w-[210px] left-0 top-[40px] absolute text-zinc-700 text-xs font-normal  leading-tight">
+                  <p className="lg:w-[210px] w-[150px] left-5 top-[40px] absolute text-zinc-700 text-xs font-normal  leading-tight">
                     We break down your project into iterations to cover all of
                     the required functionality
                   </p>
                 </div>
-                <div className="w-[210px] h-[100px] left-[288px] top-0 absolute">
-                  <h2 className="left-0 top-0 absolute text-indigo-500 text-[32px] font-bold  leading-10">
+                <div className="lg:w-[210px] w-[140px] h-[100px] lg:left-[288px] left-14 top-24 lg:top-0 absolute">
+                  <h2 className="left-0 top-0 absolute text-indigo-500 text-base lg:text-[32px]  font-bold  leading-10">
                     03
                   </h2>
-                  <p className="left-[53px] top-[8px] absolute text-zinc-700 text-sm font-bold  leading-normal">
+                  <p className="lg:left-[52px] left-[23px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Product Development
                   </p>
-                  <p className="w-[210px] left-0 top-[40px] absolute text-zinc-700 text-xs font-normal  leading-tight">
+                  <p className="lg:w-[210px] w-[145px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal text-start leading-tight">
                     We write code to agreed standards, it's pair programmed and
                     continuously integrated
                   </p>
                 </div>
-                <div className="w-[210px] h-[100px] left-[575px] top-0 absolute">
-                  <h2 className="left-0 top-0 absolute text-indigo-500 text-[32px] font-bold  leading-10">
+                <div className="w-[210px] h-[100px] lg:left-[575px] lg:top-0 -left-[200px] top-[340px] absolute">
+                  <h2 className="left-0 top-0 absolute text-indigo-500  text-base lg:text-[32px]  font-bold  leading-10">
                     05
                   </h2>
-                  <p className="left-[53px] top-[8px] absolute text-zinc-700 text-sm font-bold  leading-normal">
+                  <p className="left-[53px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Deployment & Support
                   </p>
-                  <p className="w-[210px] left-0 top-[40px] absolute text-zinc-700 text-xs font-normal  leading-tight">
+                  <p className="lg:w-[210px] w-[150px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
                     We will constantly improve and refactor to create stable
                     well-performing system
                   </p>
                 </div>
-                <div className="w-[210px] h-[100px] left-[144px] top-[184px] absolute">
-                  <h2 className="left-0 top-0 absolute text-indigo-500 text-[32px] font-bold  leading-10">
+                <div className="w-[210px] h-[100px] lg:left-[144px] lg:top-[184px] -left-[200px] top-[180px] absolute">
+                  <h2 className="left-0 top-0 absolute text-indigo-500 text-base lg:text-[32px]  font-bold  leading-10">
                     02
                   </h2>
-                  <p className="left-[52px] top-[8px] absolute text-zinc-700 text-sm font-bold  leading-normal">
+                  <p className="left-[52px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Product Design
                   </p>
-                  <p className="w-[210px] left-0 top-[40px] absolute text-zinc-700 text-xs font-normal  leading-tight">
+                  <p className="lg:w-[210px] w-[150px] left-5 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
                     We bring logic and structure, looking for the simplest and
                     safest solutions that will minimize your costs
                   </p>
                 </div>
-                <div className="w-[200px] h-[100px] left-[432px] top-[184px] absolute">
-                  <h2 className="left-0 top-0 absolute text-indigo-500 text-[32px] font-bold  leading-10">
+                <div className="lg:w-[210px] w-[140px] h-[100px] lg:left-[432px] lg:top-[184px] left-[60px] top-[270px] absolute ">
+                  <h2 className="left-0 top-0 absolute text-indigo-500 text-base lg:text-[32px]  font-bold  leading-10">
                     04
                   </h2>
-                  <p className="left-[54px] top-[8px] absolute text-zinc-700 text-sm font-bold  leading-normal">
+                  <p className="lg:left-[52px] left-10 top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Test & Optimize
                   </p>
-                  <p className="w-[200px] left-0 top-[40px] absolute text-zinc-700 text-xs font-normal  leading-tight">
+                  <p className="lg:w-[200px] w-[140px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
                     Project goes through a series of tests, to determine if the
                     developed features works
                   </p>
                 </div>
-                <div className="w-[727px] h-[0px] left-[6px] top-[144px] absolute border border-rose-400"></div>
-                <div className="w-5 h-10 left-0 top-[114px] absolute">
-                  <Image
-                    src={"/Group 16.svg"}
-                    alt="layer"
-                    width={80}
-                    height={80}
-                  />
-                  <div className="w-2.5 h-2.5 left-[5px] top-[25px] absolute bg-rose-400 rounded-full" />
-                  <div className="w-5 h-5 left-0 top-[20px] absolute rounded-full border border-rose-400" />
-                </div>
-                <div className="left-[719px] top-[192px] absolute text-zinc-700 text-sm font-bold  leading-normal">
+                <div className="lg:left-[719px] lg:top-[192px] left-[60px] top-[440px] absolute text-zinc-700 text-sm font-bold  leading-normal">
                   Thats All
                 </div>
-                <div className="w-5 h-10 left-[144px] top-[134px] absolute">
-                  <Image
-                    src={"/Group 15.svg"}
-                    alt="layer"
-                    width={80}
-                    height={80}
-                  />
-                  <div className="w-2.5 h-2.5 left-[5px] top-[5px] absolute bg-rose-400 rounded-full" />
-                  <div className="w-5 h-5 left-0 top-0 absolute rounded-full border border-rose-400" />
-                </div>
-                <div className="w-5 h-10 left-[288px] top-[114px] absolute">
+
+                <div className="lg:w-[727px] lg:h-[0px] w-0 h-[425px] lg:left-[6px] left-5 lg:top-[144px] top-[30px] absolute border border-rose-400"></div>
+
+                <div className="w-5 h-10 left-0 top-2 lg:top-[114px] absolute lg:rotate-0 -rotate-90">
                   <Image
                     src={"/Group 16.svg"}
                     alt="layer"
@@ -297,7 +274,7 @@ const Solutions = () => {
                   <div className="w-2.5 h-2.5 left-[5px] top-[25px] absolute bg-rose-400 rounded-full" />
                   <div className="w-5 h-5 left-0 top-[20px] absolute rounded-full border border-rose-400" />
                 </div>
-                <div className="w-5 h-10 left-[432px] top-[134px] absolute">
+                <div className="w-5 h-10 lg:left-[144px] lg:top-[134px] top-[100px] left-5 lg:rotate-0 -rotate-90 absolute">
                   <Image
                     src={"/Group 15.svg"}
                     alt="layer"
@@ -307,7 +284,7 @@ const Solutions = () => {
                   <div className="w-2.5 h-2.5 left-[5px] top-[5px] absolute bg-rose-400 rounded-full" />
                   <div className="w-5 h-5 left-0 top-0 absolute rounded-full border border-rose-400" />
                 </div>
-                <div className="w-5 h-10 left-[575px] top-[114px] absolute">
+                <div className="w-5 h-10 lg:left-[288px] lg:top-[114px] left-0 top-[180px] absolute lg:rotate-0 -rotate-90">
                   <Image
                     src={"/Group 16.svg"}
                     alt="layer"
@@ -317,7 +294,27 @@ const Solutions = () => {
                   <div className="w-2.5 h-2.5 left-[5px] top-[25px] absolute bg-rose-400 rounded-full" />
                   <div className="w-5 h-5 left-0 top-[20px] absolute rounded-full border border-rose-400" />
                 </div>
-                <div className="w-5 h-10 left-[719px] top-[134px] absolute">
+                <div className="w-5 h-10 lg:left-[432px] lg:top-[134px] left-5 top-[270px] lg:rotate-0 -rotate-90 absolute">
+                  <Image
+                    src={"/Group 15.svg"}
+                    alt="layer"
+                    width={80}
+                    height={80}
+                  />
+                  <div className="w-2.5 h-2.5 left-[5px] top-[5px] absolute bg-rose-400 rounded-full" />
+                  <div className="w-5 h-5 left-0 top-0 absolute rounded-full border border-rose-400" />
+                </div>
+                <div className="w-5 h-10 lg:left-[575px] lg:top-[114px] left-0 top-[350px] absolute lg:rotate-0 -rotate-90">
+                  <Image
+                    src={"/Group 16.svg"}
+                    alt="layer"
+                    width={80}
+                    height={80}
+                  />
+                  <div className="w-2.5 h-2.5 left-[5px] top-[25px] absolute bg-rose-400 rounded-full" />
+                  <div className="w-5 h-5 left-0 top-[20px] absolute rounded-full border border-rose-400" />
+                </div>
+                <div className="w-5 h-10 lg:left-[719px] lg:top-[134px] left-5 top-[430px] absolute lg:rotate-0 -rotate-90">
                   <Image
                     src={"/Group 15.svg"}
                     alt="layer"
@@ -347,14 +344,14 @@ const Solutions = () => {
                       Services Function as Needed
                     </span>
                   </p>
-                  <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-2.5 flex">
-                    <h3 className="text-zinc-700 text-center text-2xl font-bold leading-[30px]">
+                  <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-2.5  lg:text-start text-center">
+                    <h3 className="text-zinc-700  text-2xl font-bold leading-[30px]">
                       Driving Business Digital{" "}
                       <span className="text-pink text-2xl font-bold leading-[30px]">
                         Transform
                       </span>
                     </h3>
-                    <p className="w-80 text-zinc-700 text-sm font-normal leading-normal">
+                    <p className="w-full  text-zinc-700 text-sm font-normal leading-normal">
                       We can help you find the right functional service
                       requirements for your product.
                     </p>
@@ -434,9 +431,11 @@ const Solutions = () => {
                 <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-[5px] inline-flex">
                   <p className="text-zinc-700 text-sm font-normal leading-normal">
                     #Talk to us for{" "}
-                    <span className="text-zinc-700 font-bold">Human Resource Solution</span>
+                    <span className="text-zinc-700 font-bold">
+                      Human Resource Solution
+                    </span>
                   </p>
-                  <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-2.5 flex">
+                  <div className="lg:text-start text-center flex-col lg:justify-start lg:items-start justify-center items-center gap-2.5 flex ">
                     <h3 className=" text-zinc-700 text-2xl font-bold leading-[30px]">
                       Resources Tailored to{" "}
                       <span className="text-pink text-2xl font-bold leading-[30px]">

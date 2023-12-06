@@ -3,7 +3,7 @@ import Image from "next/image";
 const Goals1 = () => {
   return (
     <>
-      {/* <div id="goals" className="px-20 pt-[100px] pb-[50px] max-md:px-5">
+      {/* <div id="goals" className="px-20 pt-[100px] pb-[50px] hidden md:block max-md:px-5">
         <div className="text-center">
           <span className="text-indigo-500 text-2xl font-bold  leading-[30px]">
             #See how
@@ -15,17 +15,13 @@ const Goals1 = () => {
         </div>
 
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0 relative">
-          <hr className="w-[1100px] top-[150px] absolute border border-zinc-300 " />
-          <hr className="w-[1100px] top-[270px] absolute border border-zinc-300" />
-          <hr className="w-[1100px] top-[400px] absolute border border-zinc-300" />
-          <hr className="w-[1100px] top-[538.45px] absolute border border-zinc-300" />
           <div className="flex flex-col items-stretch w-[24%] pt-[135px] max-md:w-full max-md:ml-0">
             <div className="flex flex-col items-stretch my-auto max-md:mt-10">
               <div className="flex items-center gap-5">
                 <div className="text-indigo-500 text-2xl leading-8 tracking-tight whitespace-nowrap my-auto">
                   01
                 </div>
-                <div className="text-zinc-700 text-3xl leading-10 tracking-tight self-stretch whitespace-nowrap">
+                <div className="text-zinc-700 md:text-2xl text-3xl leading-10 tracking-tight self-stretch whitespace-nowrap">
                   Resources
                 </div>
               </div>
@@ -33,7 +29,7 @@ const Goals1 = () => {
                 <div className="text-indigo-500 text-2xl leading-8 tracking-tight whitespace-nowrap my-auto">
                   02
                 </div>
-                <div className="text-zinc-700 text-3xl leading-10 tracking-tight self-stretch whitespace-nowrap">
+                <div className="text-zinc-700 md:text-2xl text-3xl leading-10 tracking-tight self-stretch whitespace-nowrap ">
                   Costs
                 </div>
               </div>
@@ -41,7 +37,7 @@ const Goals1 = () => {
                 <div className="text-indigo-500 text-2xl leading-8 tracking-tight whitespace-nowrap my-auto">
                   03
                 </div>
-                <div className="text-zinc-700 text-3xl leading-10 tracking-tight self-stretch whitespace-nowrap">
+                <div className="text-zinc-700 md:text-lg text-3xl leading-10 tracking-tight self-stretch whitespace-nowrap">
                   Business Focus
                 </div>
               </div>
@@ -49,7 +45,7 @@ const Goals1 = () => {
                 <div className="text-indigo-500 text-2xl leading-8 tracking-tight whitespace-nowrap">
                   04
                 </div>
-                <div className="text-zinc-700 text-3xl leading-10 tracking-tight self-stretch whitespace-nowrap">
+                <div className="text-zinc-700 md:text-2xl text-3xl leading-10 tracking-tight self-stretch whitespace-nowrap">
                   Flexibility
                 </div>
               </div>
@@ -135,7 +131,7 @@ const Goals1 = () => {
           </h3>
         </div>
 
-        <div className="lg:w-[1100px] h-[362px] left-[30px]  absolute">
+        <div className="lg:w-[1100px] w-full h-[362px] left-[30px]  absolute">
           <div className="w-[120px] h-[362px] left-[130px] lg:left-[493px] lg:w-[380px] lg:h-[554px] top-0 absolute bg-orange-50" />
           <h3 className="left-0 top-[64px] lg:top-[125.41px] absolute text-indigo-500 lg:text-2xl text-[10px]  leading-3">
             01

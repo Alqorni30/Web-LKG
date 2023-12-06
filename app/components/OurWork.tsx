@@ -3,7 +3,7 @@ import Image from "next/image";
 const OurWork = () => {
   return (
     <>
-      <div className="px-20 pt-[600px] flex-col justify-start items-center gap-[50px] flex">
+      <div className="px-20 lg:pt-[600px] pt-[400px] flex-col justify-start items-center gap-[50px] flex">
         <div className="text-center">
           <h4 className="text-rose-400 lg:text-[40px] text-xl font-bold leading-[50px]">
             Our{" "}
