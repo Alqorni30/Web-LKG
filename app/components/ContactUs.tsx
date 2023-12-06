@@ -8,12 +8,12 @@ const ContactUs = () => {
         className="px-20 py-[75px] bg-green-50 justify-start items-start flex lg:flex-row flex-col gap-20"
       >
         <div className="relative order-last lg:order-first">
-          <Image
+          <img
             className="lg:w-[580px] lg:h-[350px] md:w-[310px] md:h-[220px] w-[340px] h-[198.333px] bg-indigo-500 bg-opacity-30 rounded-[20px]"
             width={580}
             height={350}
-            alt="Ant Sunset"
-            src="/antimages/ant sunset vol 1.png"
+            alt="Ant Sunset vol 1"
+            src="/antimages/ant sunset vol 1-min.png"
           />
           <button className="lg:w-[239.80px] lg:h-[70px] w-[150px] h-[45px] px-5 py-2.5 left-[180px] top-[143.44px] lg:left-[450px] lg:top-[254px] absolute bg-white rounded-[99px] justify-start items-center gap-5 inline-flex">
             <div className="justify-start items-center gap-2.5 inline-flex">
