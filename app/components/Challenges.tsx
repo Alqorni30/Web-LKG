@@ -3,7 +3,7 @@ import Image from "next/image";
 const Challenges = () => {
   return (
     <>
-      <div
+      <section
         id="challenges"
         className="w-full lg:pt-36 pt-12 pb-24 bg-zinc-950 flex-col items-center lg:gap-[145px] gap-10 inline-flex"
       >
@@ -83,7 +83,7 @@ const Challenges = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <div></div>
     </>
   );

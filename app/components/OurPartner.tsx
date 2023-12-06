@@ -3,7 +3,7 @@ import Image from "next/image";
 const OurPartner = () => {
   return (
     <>
-      <div className="px-20 py-[150px] flex-col justify-start items-center gap-[50px] flex">
+      <section className="px-20 py-[150px] flex-col justify-start items-center gap-[50px] flex">
         <div className="">
           <h3 className="text-center text-indigo-500 lg:text-[23px] text-base  font-bold  leading-[30px]">
             Successful Collaboration With
@@ -35,7 +35,7 @@ const OurPartner = () => {
             src="/ourpartner/logo pulsapro.png"
           />
         </div>
-      </div>
+      </section>
     </>
   );
 };

@@ -10,7 +10,7 @@ const Solutions = () => {
   };
   return (
     <>
-      <div id="solutions" className="pt-36 pb-24 lg:px-20 md:px-20 px-10">
+      <section id="solutions" className="pt-36 pb-24 lg:px-20 md:px-20 px-10">
         <div className="flex flex-col justify-center items-center mb-20">
           <h3 className="font-bold text-center text-primary lg:text-2xl text-base">
             Introducing
@@ -223,19 +223,19 @@ const Solutions = () => {
                   </p>
                 </div>
                 <div className="w-[210px] h-[100px] lg:left-[575px] lg:top-0 -left-[200px] top-[340px] absolute">
-                  <h2 className="left-0 top-0 absolute text-indigo-500  text-base lg:text-[32px]  font-bold  leading-10">
+                  <h2 className="lg:left-0 left-5 top-0 absolute text-indigo-500  text-base lg:text-[32px]  font-bold leading-10">
                     05
                   </h2>
                   <p className="left-[53px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Deployment & Support
                   </p>
-                  <p className="lg:w-[210px] w-[150px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
+                  <p className="lg:w-[210px] w-[150px] left-5 lg:left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
                     We will constantly improve and refactor to create stable
                     well-performing system
                   </p>
                 </div>
                 <div className="w-[210px] h-[100px] lg:left-[144px] lg:top-[184px] -left-[200px] top-[180px] absolute">
-                  <h2 className="left-0 top-0 absolute text-indigo-500 text-base lg:text-[32px]  font-bold  leading-10">
+                  <h2 className="lg:left-0 left-5 top-0 absolute text-indigo-500 text-base lg:text-[32px]  font-bold  leading-10">
                     02
                   </h2>
                   <p className="left-[52px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
@@ -535,7 +535,7 @@ const Solutions = () => {
             </div>
           )}
         </div>
-      </div>
+      </section>
     </>
   );
 };

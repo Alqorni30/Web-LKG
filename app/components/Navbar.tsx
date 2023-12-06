@@ -36,16 +36,20 @@ const Navbar = () => {
             <Link
               href="#about"
               className={`flex items-center px-5 py-6 transition-all hover:bg-hover text-black ${
-              activeSection === "about" ? "font-bold text-primary font-primary border-b-2 border-primary" : ""
-            }`}
-            onClick={() => handleSectionClick("about")}
+                activeSection === "about"
+                  ? "font-bold text-primary font-primary border-b-2 border-primary"
+                  : ""
+              }`}
+              onClick={() => handleSectionClick("about")}
             >
               About Us
             </Link>
             <Link
               href="#challenges"
               className={`flex items-center px-5 py-6 transition-all hover:bg-hover text-black ${
-                activeSection === "challenges" ? "font-bold text-primary font-primary border-b-2 border-primary" : ""
+                activeSection === "challenges"
+                  ? "font-bold text-primary font-primary border-b-2 border-primary"
+                  : ""
               }`}
               onClick={() => handleSectionClick("challenges")}
             >
@@ -54,7 +58,9 @@ const Navbar = () => {
             <Link
               href="#solutions"
               className={`flex items-center px-5 py-6 transition-all hover:bg-hover text-black ${
-                activeSection === "solutions" ? "font-bold text-primary font-primary border-b-2 border-primary" : ""
+                activeSection === "solutions"
+                  ? "font-bold text-primary font-primary border-b-2 border-primary"
+                  : ""
               }`}
               onClick={() => handleSectionClick("solutions")}
             >
@@ -63,7 +69,9 @@ const Navbar = () => {
             <Link
               href="#goals"
               className={`flex items-center px-5 py-6 transition-all hover:bg-hover text-black ${
-                activeSection === "goals" ? "font-bold text-primary font-primary border-b-2 border-primary" : ""
+                activeSection === "goals"
+                  ? "font-bold text-primary font-primary border-b-2 border-primary"
+                  : ""
               }`}
               onClick={() => handleSectionClick("goals")}
             >
@@ -72,7 +80,9 @@ const Navbar = () => {
             <Link
               href="#contact"
               className={`flex items-center px-5 py-6 transition-all hover:bg-hover text-black ${
-                activeSection === "contact" ? "font-bold text-primary font-primary border-b-2 border-primary" : ""
+                activeSection === "contact"
+                  ? "font-bold text-primary font-primary border-b-2 border-primary"
+                  : ""
               }`}
               onClick={() => handleSectionClick("contact")}
             >
@@ -95,33 +105,55 @@ const Navbar = () => {
             <Link
               href="#about"
               className={`flex items-center justify-center w-full px-6 py-3 transition-all hover:bg-hover text-black ${
-                activeSection === "about" ? "font-bold text-primary font-primary border-b-2 border-primary" : ""
+                activeSection === "about"
+                  ? "font-bold text-primary font-primary border-b-2 border-primary"
+                  : ""
               }`}
               onClick={() => handleSectionClick("about")}
             >
               About Us
             </Link>
             <Link
-              href="/about"
-              className="flex items-center justify-center w-full hover:bg-hover py-3 px-6 hover:text-primary"
+              href="#challenges"
+              className={`flex items-center justify-center w-full px-6 py-3 transition-all hover:bg-hover text-black ${
+                activeSection === "challenges"
+                  ? "font-bold text-primary font-primary border-b-2 border-primary"
+                  : ""
+              }`}
+              onClick={() => handleSectionClick("challenges")}
             >
               Challenges
             </Link>
             <Link
-              href="/projects"
-              className="flex items-center justify-center w-full hover:bg-hover py-3 px-6 hover:text-primary"
+              className={`flex items-center justify-center w-full px-6 py-3 transition-all hover:bg-hover text-black ${
+                activeSection === "solutions"
+                  ? "font-bold text-primary font-primary border-b-2 border-primary"
+                  : ""
+              }`}
+              onClick={() => handleSectionClick("solutions")}
+              href="#solutions"
             >
               Solutions
             </Link>
             <Link
-              href="/projects"
-              className="flex items-center justify-center w-full hover:bg-hover py-3 px-6 hover:text-primary"
+              className={`flex items-center justify-center w-full px-6 py-3 transition-all hover:bg-hover text-black ${
+                activeSection === "goals"
+                  ? "font-bold text-primary font-primary border-b-2 border-primary"
+                  : ""
+              }`}
+              onClick={() => handleSectionClick("goals")}
+              href="#goals"
             >
               Goals
             </Link>
             <Link
-              href="/projects"
-              className="flex items-center justify-center w-full hover:bg-hover py-2.5 px-6 hover:text-primary"
+              className={`flex items-center justify-center w-full px-6 py-3 transition-all hover:bg-hover text-black ${
+                activeSection === "contact"
+                  ? "font-bold text-primary font-primary border-b-2 border-primary"
+                  : ""
+              }`}
+              onClick={() => handleSectionClick("contact")}
+              href="#contact"
             >
               Contact Us
             </Link>

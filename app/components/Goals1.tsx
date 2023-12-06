@@ -3,7 +3,7 @@ import Image from "next/image";
 const Goals1 = () => {
   return (
     <>
-      {/* <div id="goals" className="px-20 pt-[100px] pb-[50px] hidden md:block max-md:px-5">
+      {/* <div id="goals" className="px-20 pt-[100px] pb-[50px] max-md:px-5">
         <div className="text-center">
           <span className="text-indigo-500 text-2xl font-bold  leading-[30px]">
             #See how
@@ -117,10 +117,7 @@ const Goals1 = () => {
           </div>
         </div>
       </div> */}
-      <div
-        id="goals"
-        className=" pt-[100px] pb-[50px]  relative"
-      >
+      <section id="goals" className=" pt-[100px] pb-[50px]  relative">
         <div className="text-center pb-[52px]">
           <span className="text-indigo-500 lg:text-2xl text-lg font-bold  leading-[30px]">
             #See how
@@ -130,8 +127,8 @@ const Goals1 = () => {
             We can help you reach your <span className="text-pink">goals</span>
           </h3>
         </div>
-
-        <div className="lg:w-[1100px] w-full h-[362px] left-[30px]  absolute">
+       
+        <div className="lg:w-[1100px] h-[362px] left-[30px]  absolute">
           <div className="w-[120px] h-[362px] left-[130px] lg:left-[493px] lg:w-[380px] lg:h-[554px] top-0 absolute bg-orange-50" />
           <h3 className="left-0 top-[64px] lg:top-[125.41px] absolute text-indigo-500 lg:text-2xl text-[10px]  leading-3">
             01
@@ -178,7 +175,9 @@ const Goals1 = () => {
               alt="Logo Lkg"
               src="/Logo lkg only 1.png"
             />
-            <div className="text-indigo-500 text-xs lg:text-base  leading-[15px]">LKG</div>
+            <div className="text-indigo-500 text-xs lg:text-base  leading-[15px]">
+              LKG
+            </div>
           </div>
           <div className="w-[84px] h-[15px] left-[268px] lg:w-[148px] lg:h-10 lg:left-[990px] lg:top-[30.41px] top-[12px] absolute justify-center items-center gap-2.5 flex">
             <div className="text-indigo-500 text-xs lg:text-base leading-[15px]">
@@ -203,7 +202,7 @@ const Goals1 = () => {
             takes time to process adjustments with old members.
           </p>
         </div>
-      </div>
+      </section>
     </>
   );
 };

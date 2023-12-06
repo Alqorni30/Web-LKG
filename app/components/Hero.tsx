@@ -4,7 +4,7 @@ import { IoCheckmarkOutline } from "react-icons/io5";
 const Hero = () => {
   return (
     <>
-      <div className="pt-28 text-center mb-20">
+      <section className="pt-28 text-center mb-20">
         <div className="mb-11 gap-3 flex flex-col justify-center items-center mx-auto">
           <h3 className="lg:text-3xl md:text-2xl text-xl font-bold text-pink">
             #Your Trusted
@@ -64,7 +64,7 @@ const Hero = () => {
             className="z-10  mb-16  lg:hidden"
           />
         </div>
-      </div>
+      </section>
     </>
   );
 };

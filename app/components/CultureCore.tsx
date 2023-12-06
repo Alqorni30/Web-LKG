@@ -3,7 +3,7 @@ import Image from "next/image";
 const AboutCard = () => {
   return (
     <>
-      <div id="culturecore" className="pt-12">
+      <section id="culturecore" className="pt-12">
         <div className="">
           <h1 className="font-bold text-center md:text-2xl text-xl lg:text-4xl">
             Culture & Core <span className="text-pink">Values</span>
@@ -81,7 +81,7 @@ const AboutCard = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

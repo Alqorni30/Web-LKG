@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer className="">
-        <div className=" px-20 py-[50px] justify-between items-start flex lg:flex-row flex-col gap-[30px]">
+        <div className=" px-20 py-[50px] lg:justify-between lg:items-start justify-between items-start md:justify-center md:items-center flex lg:flex-row flex-col gap-[30px]">
           <div className="flex-col justify-start items-start gap-[30px] flex">
             <div className="lg:w-[232px] w-full flex-col justify-center lg:items-start items-center gap-5 flex">
               <Image
@@ -30,7 +30,7 @@ const Footer = () => {
             </p>
           </div>
           
-          <div className="flex-col justify-start items-start gap-5 flex ">
+          <div className="flex-col justify-start items-start gap-5 flex">
             <p className="text-justify text-neutral-400 text-sm font-normal leading-normal">
               MENU
             </p>
