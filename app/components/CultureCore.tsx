@@ -67,9 +67,9 @@ const AboutCard = () => {
                     the industry
                   </div>
                   <Image
-                  src={"/antimages/Ant collaboration.png"}
+                  src={"/antimages/Ant collaboration.svg"}
                   className="w-[124.20px] h-[50px]"
-                  alt=""
+                  alt="ant coolaboration"
                   width={125}
                   height={50}
                 />

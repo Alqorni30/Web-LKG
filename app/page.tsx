@@ -1,6 +1,6 @@
+import Navbar from './components/Navbar'
 import Hero from "./components/Hero";
 import AboutUs from "./components/AboutUs";
-import CultureCore from "./components/CultureCore";
 import Challenges from "./components/Challenges";
 import Solutions from "./components/Solutions";
 import Technologies from "./components/Technologies";
@@ -13,17 +13,17 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
+      <Navbar />
       <Hero />
       <AboutUs />
-      <CultureCore />
       <Challenges />
-      <Solutions/>
-      <Technologies/>
-      <Goals1/>
-      <OurWork/>
-      <OurPartner/>
-      <ContactUs/>
-      <Footer/>
+      <Solutions />
+      <Technologies />
+      <Goals1 />
+      <OurWork />
+      <OurPartner />
+      <ContactUs />
+      <Footer />
     </>
   );
 }

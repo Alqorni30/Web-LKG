@@ -15,7 +15,7 @@ const Tech = () => {
                 className="lg:w-[25px] lg:h-[25px] md:w-[21px] md:h-[21px] w-[12px] h-[12px]"
                 width={25}
                 height={25}
-                alt="flutter"
+                alt="flutter1"
                 src="/logotech/flutter 1.svg"
               />
               Flutter
@@ -25,7 +25,7 @@ const Tech = () => {
                 className="lg:w-[25px] lg:h-[25px] md:w-[21px] md:h-[21px] w-[12px] h-[12px]"
                 width={25}
                 height={25}
-                alt="kotlin"
+                alt="kotlin2"
                 src="/logotech/Kotlin 1.svg"
               />
               Kotlin
@@ -35,7 +35,7 @@ const Tech = () => {
                 className="lg:w-[25px] lg:h-[25px] md:w-[21px] md:h-[21px] w-[12px] h-[12px]"
                 width={25}
                 height={25}
-                alt="angular"
+                alt="angular3"
                 src="/logotech/angular 1.svg"
               />
               Angular
@@ -45,7 +45,7 @@ const Tech = () => {
                 className="lg:w-[25px] lg:h-[25px] md:w-[21px] md:h-[21px] w-[12px] h-[12px]"
                 width={25}
                 height={25}
-                alt="springboot"
+                alt="springboot4"
                 src="/logotech/Springboot 1.svg"
               />
               Springboot
@@ -55,7 +55,7 @@ const Tech = () => {
                 className="lg:w-[25px] lg:h-[25px] md:w-[21px] md:h-[21px] w-[12px] h-[12px]"
                 width={25}
                 height={25}
-                alt="java"
+                alt="java5"
                 src="/logotech/Java-logo-1 1.svg"
               />
               Java
@@ -65,7 +65,7 @@ const Tech = () => {
                 className="lg:w-[25px] lg:h-[25px] md:w-[21px] md:h-[21px] w-[12px] h-[12px]"
                 width={25}
                 height={25}
-                alt="Node js"
+                alt="Node js 6"
                 src="/logotech/Nodejs 1.svg"
               />
               Node{""}JS
@@ -75,7 +75,7 @@ const Tech = () => {
                 className="lg:w-[25px] lg:h-[25px] md:w-[21px] md:h-[21px] w-[12px] h-[12px]"
                 width={25}
                 height={25}
-                alt="vue JS"
+                alt="vue JS 7"
                 src="/logotech/Vuejs 1.svg"
               />
               VueJS
@@ -85,7 +85,7 @@ const Tech = () => {
                 className="lg:w-[25px] lg:h-[25px] md:w-[21px] md:h-[21px] w-[12px] h-[12px]"
                 width={25}
                 height={25}
-                alt="react js"
+                alt="react js 8"
                 src="/logotech/Reactjs 2.svg"
               />
               ReactJS
@@ -95,7 +95,7 @@ const Tech = () => {
                 className="lg:w-[25px] lg:h-[25px] md:w-[21px] md:h-[21px] w-[12px] h-[12px]"
                 width={25}
                 height={25}
-                alt="Pyton"
+                alt="Pyton 9"
                 src="/logotech/python 1.svg"
               />
               Python
@@ -105,7 +105,7 @@ const Tech = () => {
                 className="lg:w-[25px] lg:h-[25px] md:w-[21px] md:h-[21px] w-[12px] h-[12px]"
                 width={25}
                 height={25}
-                alt="Huawei Cloud"
+                alt="Huawei Cloud 10"
                 src="/logotech/Huawei.svg"
               />
               Huawei Cloud
@@ -115,7 +115,7 @@ const Tech = () => {
                 className="lg:w-[25px] lg:h-[25px] md:w-[21px] md:h-[21px] w-[12px] h-[12px]"
                 width={25}
                 height={25}
-                alt="docker"
+                alt="docker 11"
                 src="/logotech/docker.svg"
               />
               Docker
@@ -125,7 +125,7 @@ const Tech = () => {
                 className="lg:w-[25px] lg:h-[25px] md:w-[21px] md:h-[21px] w-[12px] h-[12px]"
                 width={25}
                 height={25}
-                alt="kubernetes"
+                alt="kubernetes 12"
                 src="/logotech/kubernetes 1.svg"
               />
               Kubernetes

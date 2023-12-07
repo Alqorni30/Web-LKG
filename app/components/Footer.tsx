@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="">
+      <footer>
         <div className=" px-20 py-[50px] lg:justify-between lg:items-start justify-between items-start md:justify-center md:items-center flex lg:flex-row flex-col gap-[30px]">
           <div className="flex-col justify-start items-start gap-[30px] flex">
             <div className="lg:w-[232px] w-full flex-col justify-center lg:items-start items-center gap-5 flex">
@@ -13,7 +13,7 @@ const Footer = () => {
                 width={72}
                 height={37}
                 alt="Logo Lkg"
-                src="/Logo lkg only 1.png"
+                src="/antimages/Logo lkg only 1.svg"
               />
               <div className="flex-col justify-center lg:items-start items-center gap-[5px] flex">
                 <h5 className="w-200px text-zinc-700 lg:text-sm text-lg font-bold leading-tight">
@@ -24,7 +24,7 @@ const Footer = () => {
                 </h6>
               </div>
             </div>
-            <p className="w-[300px] text-justify text-zinc-700 text-sm font-normal leading-normal">
+            <p className="lg:w-[300px] text-justify text-zinc-700 text-sm font-normal leading-normal">
               Jl. Diponegoro No.109, Dauh Puri Klod, Kec. Denpasar Barat, Kota
               Denpasar, Bali 80232
             </p>
@@ -87,7 +87,7 @@ const Footer = () => {
                     className=""
                     width={30}
                     height={30}
-                    alt="phone"
+                    alt="streamline"
                     src="/assets/streamline.svg"
                   />
                 </div>
@@ -98,62 +98,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* <div className="justify-start items-start gap-[107px] hidden pt-[30px] ">
-            <div className="flex-col justify-start items-start gap-5 inline-flex">
-              <div className="text-justify text-neutral-400 text-xs font-normal font-['Inter'] leading-tight">
-                MENU
-              </div>
-              <div className="flex-col justify-start items-start gap-2.5 flex">
-                <div className="text-center text-zinc-700 text-[10px] font-normal font-['Inter'] leading-[14px]">
-                  About Us
-                </div>
-                <div className="text-center text-zinc-700 text-[10px] font-normal font-['Inter'] leading-[14px]">
-                  Culture & Core Values
-                </div>
-                <div className="text-center text-zinc-700 text-[10px] font-normal font-['Inter'] leading-[14px]">
-                  Challenges
-                </div>
-                <div className="text-center text-zinc-700 text-[10px] font-normal font-['Inter'] leading-[14px]">
-                  Contact Us
-                </div>
-              </div>
-            </div>
-            <div className="flex-col justify-start items-end gap-5 inline-flex">
-              <div className="text-justify text-neutral-400 text-xs font-normal font-['Inter'] leading-tight">
-                CONTACT
-              </div>
-              <div className="flex-col justify-start items-end gap-2.5 flex">
-                <div className="origin-top-left rotate-180 justify-start items-center gap-2.5 inline-flex">
-                  <div className="w-[15px] h-[15px] relative">
-                    <Image
-                      className=""
-                      width={15}
-                      height={15}
-                      alt="phone"
-                      src="/assets/phone.svg"
-                    />
-                  </div>
-                  <div className="origin-top-left rotate-180 text-justify text-zinc-700 text-[10px] font-normal font-['Inter'] leading-[14px]">
-                    089 505 130 799
-                  </div>
-                </div>
-                <div className="origin-top-left rotate-180 justify-start items-center gap-2.5 inline-flex">
-                  <div className="w-[15px] h-[15px] ">
-                    <Image
-                      className=""
-                      width={15}
-                      height={15}
-                      alt="phone"
-                      src="/assets/streamline.svg"
-                    />
-                  </div>
-                  <div className="origin-top-left rotate-180 text-justify text-zinc-700 text-[10px] font-normal font-['Inter'] leading-[14px]">
-                    miftah@kolaborasiglobal.com
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
         <div className="px-20">
           <hr className="border border-zinc-300 " />

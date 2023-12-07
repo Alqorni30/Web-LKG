@@ -1,4 +1,5 @@
 import Image from "next/image";
+import CultureCore from "./CultureCore";
 
 const AboutUs = () => {
   return (
@@ -35,6 +36,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+      <CultureCore/>
     </>
   );
 };

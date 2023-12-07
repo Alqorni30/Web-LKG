@@ -18,28 +18,28 @@ const OurWork = () => {
             width={206}
             height={300}
             alt="simpananku"
-            src="/ourwork/simpananku.png"
+            src="/ourwork/simpananku.svg"
           />
           <Image
             className="lg:w-[206.301px] lg:h-[300px]  lg:left-[914.13px] w-[68.13px] h-[99.07px] left-[301.87px] top-0 absolute"
             width={206}
             height={300}
             alt="irma"
-            src="/ourwork/irma.png"
+            src="/ourwork/irma.svg"
           />
           <Image
             className="lg:w-[171.81px] lg:h-[350px] lg:left-[795.32px] lg:top-[96px] absolute w-[56.74px] h-[115.58px] left-[262.64px] top-[31.70px]"
             width={206}
             height={300}
             alt="kopkar"
-            src="/ourwork/kopkar.png"
+            src="/ourwork/kopkar.svg"
           />
           <Image
             className="lg:w-[721.32px] lg:h-[350px] w-[238.20px] h-[115.58px] left-[24.44px] top-[31.70px] lg:left-[74px] lg:top-[96px] absolute"
             width={721}
             height={350}
             alt="mockup"
-            src="/ourwork/mockup.png"
+            src="/ourwork/mockup.svg"
           />
         </div>
       </section>

@@ -18,21 +18,21 @@ const OurPartner = () => {
             width={256}
             height={80}
             alt="simpananku"
-            src="/ourpartner/logo aviana sinar abadi.png"
+            src="/ourpartner/logo aviana sinar abadi.svg"
           />
           <Image
             className="lg:w-[311.69px] lg:h-20 w-[97.40px] h-[25px]"
             width={311}
             height={80}
             alt="simpananku"
-            src="/ourpartner/logo irma biru.png"
+            src="/ourpartner/logo irma biru.svg"
           />
           <Image
             className="lg:w-[298.41px] lg:h-20 w-[93.25px] h-[25px]"
             width={298}
             height={80}
             alt="simpananku"
-            src="/ourpartner/logo pulsapro.png"
+            src="/ourpartner/logo pulsapro.svg"
           />
         </div>
       </section>

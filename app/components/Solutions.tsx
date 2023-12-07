@@ -199,7 +199,7 @@ const Solutions = () => {
 
               <div className="lg:w-[785px]  lg:h-[284px] relative flex  justify-center items-center lg:p-0 pb-[450px]">
                 <div className="w-[210px] h-[100px] lg:left-0 -left-[200px] top-0 absolute">
-                  <h2 className="lg:left-0 left-5 top-0 absolute text-indigo-500 text-base lg:text-[32px]  font-bold  leading-10">
+                  <h2 className="lg:left-0 left-5 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     01
                   </h2>
                   <p className="left-[48px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
@@ -211,7 +211,7 @@ const Solutions = () => {
                   </p>
                 </div>
                 <div className="lg:w-[210px] w-[140px] h-[100px] lg:left-[288px] left-14 top-24 lg:top-0 absolute">
-                  <h2 className="left-0 top-0 absolute text-indigo-500 text-base lg:text-[32px]  font-bold  leading-10">
+                  <h2 className="left-0 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     03
                   </h2>
                   <p className="lg:left-[52px] left-[23px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
@@ -223,7 +223,7 @@ const Solutions = () => {
                   </p>
                 </div>
                 <div className="w-[210px] h-[100px] lg:left-[575px] lg:top-0 -left-[200px] top-[340px] absolute">
-                  <h2 className="lg:left-0 left-5 top-0 absolute text-indigo-500  text-base lg:text-[32px]  font-bold leading-10">
+                  <h2 className="lg:left-0 left-5 top-0 absolute text-primary  text-base lg:text-[32px]  font-bold leading-10">
                     05
                   </h2>
                   <p className="left-[53px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
@@ -235,7 +235,7 @@ const Solutions = () => {
                   </p>
                 </div>
                 <div className="w-[210px] h-[100px] lg:left-[144px] lg:top-[184px] -left-[200px] top-[180px] absolute">
-                  <h2 className="lg:left-0 left-5 top-0 absolute text-indigo-500 text-base lg:text-[32px]  font-bold  leading-10">
+                  <h2 className="lg:left-0 left-5 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     02
                   </h2>
                   <p className="left-[52px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
@@ -247,7 +247,7 @@ const Solutions = () => {
                   </p>
                 </div>
                 <div className="lg:w-[210px] w-[140px] h-[100px] lg:left-[432px] lg:top-[184px] left-[60px] top-[270px] absolute ">
-                  <h2 className="left-0 top-0 absolute text-indigo-500 text-base lg:text-[32px]  font-bold  leading-10">
+                  <h2 className="left-0 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     04
                   </h2>
                   <p className="lg:left-[52px] left-10 top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
@@ -482,10 +482,10 @@ const Solutions = () => {
                     </div>
                   </div>
                   <div className="flex-col justify-start items-start gap-[5px] inline-flex">
-                    <p className="text-center text-indigo-500 text-base font-bold leading-tight">
+                    <p className="text-center text-primary text-base font-bold leading-tight">
                       Data Visualization
                     </p>
-                    <p className="w-[270px] text-indigo-500 text-sm font-normal leading-[17.50px]">
+                    <p className="w-[270px] text-primary text-sm font-normal leading-[17.50px]">
                       Turning Complex Data into Powerful Visual Insights.
                     </p>
                   </div>
@@ -502,10 +502,10 @@ const Solutions = () => {
                     </div>
                   </div>
                   <div className="flex-col justify-start items-start gap-[5px] inline-flex">
-                    <p className="text-center text-indigo-500 text-base font-bold leading-tight">
+                    <p className="text-center text-primary text-base font-bold leading-tight">
                       Software Test
                     </p>
-                    <p className="w-[270px] text-indigo-500 text-sm font-normal leading-[17.50px]">
+                    <p className="w-[270px] text-primary text-sm font-normal leading-[17.50px]">
                       Ensuring Best Performance and Quality Assurance
                       Excellence.
                     </p>
@@ -523,10 +523,10 @@ const Solutions = () => {
                     </div>
                   </div>
                   <div className="flex-col justify-start items-start gap-[5px] inline-flex">
-                    <p className="text-center text-indigo-500 text-base font-bold leading-tight">
+                    <p className="text-center text-primary text-base font-bold leading-tight">
                       Cloud Migration
                     </p>
-                    <p className="w-[270px] text-indigo-500 text-sm font-normal leading-[17.50px]">
+                    <p className="w-[270px] text-primary text-sm font-normal leading-[17.50px]">
                       Move Your Business to the Cloud Smoothly.
                     </p>
                   </div>

@@ -24,7 +24,12 @@ const Challenges = () => {
             <div className="gap-10 lg:px-20 px-16 flex  lg:flex-nowrap flex-wrap justify-center items-center">
               <div className="w-[290px] h-[242px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex">
                 <div className="justify-center items-center flex">
-                  <Image src={"/assets/human.svg"} alt="" width={80} height={80} />
+                  <Image
+                    src={"/assets/human.svg"}
+                    alt=""
+                    width={80}
+                    height={80}
+                  />
                 </div>
                 <div className="flex-col justify-start items-center gap-[5px] flex">
                   <h4 className="text-center text-white text-base font-bold leading-[25px]">
@@ -38,7 +43,12 @@ const Challenges = () => {
 
               <div className="lg:w-[290px] w-[300px] h-[242px] lg:h-[242px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex">
                 <div className="justify-center items-center flex">
-                  <Image src={"/assets/static.svg"} alt="" width={80} height={80} />
+                  <Image
+                    src={"/assets/static.svg"}
+                    alt=""
+                    width={80}
+                    height={80}
+                  />
                 </div>
                 <div className="flex-col justify-start items-center gap-[5px] flex">
                   <h4 className="text-center text-white text-base font-bold leading-[25px]">
@@ -53,7 +63,12 @@ const Challenges = () => {
 
               <div className="w-[290px] h-[242px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex">
                 <div className="justify-center items-center flex">
-                  <Image src={"/assets/focus.svg"} alt="" width={80} height={80} />
+                  <Image
+                    src={"/assets/focus.svg"}
+                    alt=""
+                    width={80}
+                    height={80}
+                  />
                 </div>
                 <div className="flex-col justify-start items-center gap-[5px] flex">
                   <h4 className="text-center text-white text-base font-bold leading-[25px]">
@@ -68,7 +83,12 @@ const Challenges = () => {
 
               <div className="w-[290px] h-[242px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex">
                 <div className="pl-2 pr-[8.41px] pb-[0.88px] justify-center items-center flex">
-                  <Image src={"/assets/skill.svg"} alt="" width={80} height={80} />
+                  <Image
+                    src={"/assets/skill.svg"}
+                    alt=""
+                    width={80}
+                    height={80}
+                  />
                 </div>
                 <div className="flex-col justify-start items-center gap-[5px] flex">
                   <h4 className="text-center text-white text-base font-bold leading-[25px]">
@@ -84,7 +104,6 @@ const Challenges = () => {
           </div>
         </div>
       </section>
-      <div></div>
     </>
   );
 };

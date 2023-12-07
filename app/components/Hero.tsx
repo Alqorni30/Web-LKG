@@ -35,7 +35,7 @@ const Hero = () => {
         </div>
         <div className="grid justify-center items-center relative">
           <Image
-            src={"/assets/Rectangle9.png"}
+            src={"/assets/Rectangle 9.svg"}
             alt="rectangle"
             width={380}
             height={380}
@@ -49,8 +49,8 @@ const Hero = () => {
             className="lg:w-[450px] lg:h-[430px] w-[250px] h-[240px] bg-transparent absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ml-8 mt-10"
           />
           <Image
-            src={"/assets/up.png"}
-            alt="up"
+            src={"/assets/up.svg"}
+            alt="up1"
             width={80}
             height={80}
             className="hidden lg:flex absolute z-10 lg:top-1/2 lg:right-80 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/3 lg:ml-10 lg:mt-20"
@@ -58,8 +58,8 @@ const Hero = () => {
         </div>
         <div className="flex justify-end items-end absolute inset-0">
           <Image
-            src={"/assets/up.png"}
-            alt="up"
+            src={"/assets/up.svg"}
+            alt="up2"
             width={80}
             height={80}
             className="z-10  mb-16  lg:hidden"

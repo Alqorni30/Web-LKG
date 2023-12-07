@@ -3,6 +3,7 @@ import { useState } from "react";
 import { RiMenu3Fill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,16 +22,18 @@ const Navbar = () => {
       <nav className="bg-white w-full shadow-md fixed z-20 ">
         <div className="flex justify-between items-center lg:px-20 px-8 gap-5">
           <div className="flex text-white gap-2 font-bold py-4">
-            <img
+            <Image
               className="w-[72px] h-[37px]"
-              src="/Logo LKG Only 1.png"
+              src="/antimages/Logo lkg only 1.svg"
               width={100}
               height={100}
               alt="Logo"
             />
-            <h5 className="text-black font-bold text-base lg:flex justify-center items-center hidden">
-              Layanan Kolaborasi Global
-            </h5>
+            <Link href="/" className="lg:flex justify-center items-center hidden">
+              <h5 className="text-black font-bold text-base ">
+                Layanan Kolaborasi Global
+              </h5>
+            </Link>
           </div>
           <div className="lg:flex  text-white hidden">
             <Link
