@@ -26,7 +26,7 @@ const AboutUs = () => {
           </div>
           <div className="lg:col-span-1 lg:flex hidden p-5">
             <Image
-              src={"/Group 28.png"}
+              src={"/assets/Group 28.svg"}
               width={440}
               height={338}
               alt="Group28"

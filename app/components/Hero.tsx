@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { IoCheckmarkOutline } from "react-icons/io5";
 
+
 const Hero = () => {
   return (
     <>
@@ -34,22 +35,22 @@ const Hero = () => {
         </div>
         <div className="grid justify-center items-center relative">
           <Image
-            src={"/Rectangle9.png"}
-            alt="alt"
+            src={"/assets/Rectangle9.png"}
+            alt="rectangle"
             width={380}
             height={380}
             className="z-0 lg:w-[380px] lg:h-[380px] w-[200px] h-[200px]"
           />
           <Image
-            src={"/Background 1.png"}
-            alt="alt"
+            src={"/assets/Background 1.svg"}
+            alt="background"
             width={445}
             height={440}
             className="lg:w-[450px] lg:h-[430px] w-[250px] h-[240px] bg-transparent absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ml-8 mt-10"
           />
           <Image
-            src={"/up.png"}
-            alt="alt"
+            src={"/assets/up.png"}
+            alt="up"
             width={80}
             height={80}
             className="hidden lg:flex absolute z-10 lg:top-1/2 lg:right-80 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/3 lg:ml-10 lg:mt-20"
@@ -57,8 +58,8 @@ const Hero = () => {
         </div>
         <div className="flex justify-end items-end absolute inset-0">
           <Image
-            src={"/up.png"}
-            alt="alt"
+            src={"/assets/up.png"}
+            alt="up"
             width={80}
             height={80}
             className="z-10  mb-16  lg:hidden"
