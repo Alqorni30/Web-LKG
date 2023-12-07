@@ -12,7 +12,7 @@ const AboutCard = () => {
             <div className="gap-7 flex justify-center items-center lg:flex-nowrap flex-wrap px-20 w-full">
               <div className="w-[290px] h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
                 <div className="w-20 h-20 justify-center items-center inline-flex">
-                <Image src={"/square.svg"} alt="" width={80} height={80} />
+                <Image src={"/assets/square.svg"} alt="square" width={80} height={80} />
                 </div>
                 <div className="self-stretch h-[108px] flex-col justify-start items-start gap-2.5 flex">
                   <div className="self-stretch text-zinc-700 text-xl font-bold  leading-[25px]">
@@ -26,7 +26,7 @@ const AboutCard = () => {
               
               <div className="w-[290px] h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
                 <div className="w-20 h-20 justify-center items-center inline-flex">
-                <Image src={"/circle.svg"} alt="" width={80} height={80} />
+                <Image src={"/assets/circle.svg"} alt="circle" width={80} height={80} />
                 </div>
                 <div className="self-stretch h-[132px] flex-col justify-start items-start gap-2.5 flex">
                   <div className="self-stretch text-zinc-700 text-xl font-bold  leading-[25px]">
@@ -41,7 +41,7 @@ const AboutCard = () => {
 
               <div className="w-[290px] h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
                 <div className="w-20 h-20 justify-center items-center inline-flex">
-                <Image src={"/flower.svg"} alt="" width={80} height={80} />
+                <Image src={"/assets/flower.svg"} alt="flower" width={80} height={80} />
                 </div>
                 <div className="self-stretch h-[132px] flex-col justify-start items-start gap-2.5 flex">
                   <div className="self-stretch text-zinc-700 text-xl font-bold  leading-[25px]">
@@ -56,7 +56,7 @@ const AboutCard = () => {
 
               <div className="w-[290px] h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
                 <div className="w-20 h-20 justify-center items-center inline-flex">
-                <Image src={"/line.svg"} alt="" width={80} height={80} />
+                <Image src={"/assets/line.svg"} alt="line" width={80} height={80} />
                 </div>
                 <div className="self-stretch h-[225px] flex-col justify-start items-start gap-2.5 flex">
                   <div className="self-stretch text-zinc-700 text-xl font-bold  leading-[25px]">
@@ -67,7 +67,7 @@ const AboutCard = () => {
                     the industry
                   </div>
                   <Image
-                  src={"/Ant collaboration.png"}
+                  src={"/antimages/Ant collaboration.png"}
                   className="w-[124.20px] h-[50px]"
                   alt=""
                   width={125}

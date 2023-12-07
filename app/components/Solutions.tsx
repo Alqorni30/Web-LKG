@@ -87,7 +87,7 @@ const Solutions = () => {
               >
                 <div className="w-20 h-20 flex justify-center items-center">
                   <Image
-                    src={"/Layer 1.svg"}
+                    src={"/assets/Layer 1.svg"}
                     alt="layer"
                     width={80}
                     height={80}
@@ -116,7 +116,7 @@ const Solutions = () => {
               >
                 <div className="w-20 h-20 flex justify-center items-center">
                   <Image
-                    src={"/programmer.svg"}
+                    src={"/assets/programmer.svg"}
                     alt="programmer"
                     width={85}
                     height={70}
@@ -145,7 +145,7 @@ const Solutions = () => {
               >
                 <div className="w-20 h-20 flex justify-center items-center">
                   <Image
-                    src={"/videocall.svg"}
+                    src={"/assets/videocall.svg"}
                     alt="videocall"
                     width={85}
                     height={70}
@@ -169,7 +169,7 @@ const Solutions = () => {
               <div className="lg:flex justify-center items-center gap-12">
                 <Image
                   className="mx-auto pb-3"
-                  src={"/layer 1.svg"}
+                  src={"/assets/layer 1.svg"}
                   alt="layer"
                   width={142}
                   height={112}
@@ -266,7 +266,7 @@ const Solutions = () => {
 
                 <div className="w-5 h-10 left-0 top-2 lg:top-[114px] absolute lg:rotate-0 -rotate-90">
                   <Image
-                    src={"/Group 16.svg"}
+                    src={"/assets/Group 16.svg"}
                     alt="layer"
                     width={80}
                     height={80}
@@ -276,7 +276,7 @@ const Solutions = () => {
                 </div>
                 <div className="w-5 h-10 lg:left-[144px] lg:top-[134px] top-[100px] left-5 lg:rotate-0 -rotate-90 absolute">
                   <Image
-                    src={"/Group 15.svg"}
+                    src={"/assets/Group 15.svg"}
                     alt="layer"
                     width={80}
                     height={80}
@@ -286,7 +286,7 @@ const Solutions = () => {
                 </div>
                 <div className="w-5 h-10 lg:left-[288px] lg:top-[114px] left-0 top-[180px] absolute lg:rotate-0 -rotate-90">
                   <Image
-                    src={"/Group 16.svg"}
+                    src={"/assets/Group 16.svg"}
                     alt="layer"
                     width={80}
                     height={80}
@@ -296,7 +296,7 @@ const Solutions = () => {
                 </div>
                 <div className="w-5 h-10 lg:left-[432px] lg:top-[134px] left-5 top-[270px] lg:rotate-0 -rotate-90 absolute">
                   <Image
-                    src={"/Group 15.svg"}
+                    src={"/assets/Group 15.svg"}
                     alt="layer"
                     width={80}
                     height={80}
@@ -306,7 +306,7 @@ const Solutions = () => {
                 </div>
                 <div className="w-5 h-10 lg:left-[575px] lg:top-[114px] left-0 top-[350px] absolute lg:rotate-0 -rotate-90">
                   <Image
-                    src={"/Group 16.svg"}
+                    src={"/assets/Group 16.svg"}
                     alt="layer"
                     width={80}
                     height={80}
@@ -316,7 +316,7 @@ const Solutions = () => {
                 </div>
                 <div className="w-5 h-10 lg:left-[719px] lg:top-[134px] left-5 top-[430px] absolute lg:rotate-0 -rotate-90">
                   <Image
-                    src={"/Group 15.svg"}
+                    src={"/assets/Group 15.svg"}
                     alt="layer"
                     width={80}
                     height={80}
@@ -332,7 +332,7 @@ const Solutions = () => {
               <div className=" justify-center items-center gap-12 lg:flex">
                 <Image
                   className="mx-auto pb-3"
-                  src={"/programmer.svg"}
+                  src={"/assets/programmer.svg"}
                   alt="layer"
                   width={144}
                   height={112}
@@ -423,7 +423,7 @@ const Solutions = () => {
               <div className=" justify-center items-center gap-12 lg:flex">
                 <Image
                   className="mx-auto pb-3"
-                  src={"/videocall.svg"}
+                  src={"/assets/videocall.svg"}
                   alt="videocall"
                   width={145}
                   height={120}
@@ -454,7 +454,7 @@ const Solutions = () => {
                   <div className="w-[60px] h-[60px] pl-[4.50px] pr-[4.33px] py-[3.75px] justify-center items-center flex">
                     <div className="w-[51.17px] h-[52.50px] relative">
                       <Image
-                        src={"/human1.svg"}
+                        src={"/assets/human1.svg"}
                         alt="human"
                         width={145}
                         height={120}
@@ -474,7 +474,7 @@ const Solutions = () => {
                   <div className="w-[60px] h-[60px] pl-[4.50px] pr-[4.33px] py-[3.75px] justify-center items-center flex">
                     <div className="w-[51.17px] h-[52.50px] relative">
                       <Image
-                        src={"/human1.svg"}
+                        src={"/assets/human1.svg"}
                         alt="human"
                         width={145}
                         height={120}
@@ -494,7 +494,7 @@ const Solutions = () => {
                   <div className="w-[60px] h-[60px] pl-[4.50px] pr-[4.33px] py-[3.75px] justify-center items-center flex">
                     <div className="w-[51.17px] h-[52.50px] relative">
                       <Image
-                        src={"/human1.svg"}
+                        src={"/assets/human1.svg"}
                         alt="human"
                         width={145}
                         height={120}
@@ -515,7 +515,7 @@ const Solutions = () => {
                   <div className="w-[60px] h-[60px] pl-[4.50px] pr-[4.33px] py-[3.75px] justify-center items-center flex">
                     <div className="w-[51.17px] h-[52.50px] relative">
                       <Image
-                        src={"/human1.svg"}
+                        src={"/assets/human1.svg"}
                         alt="human"
                         width={145}
                         height={120}
