@@ -42,10 +42,10 @@ const ContactUs = () => {
 
         <div>
           <div className="lg:w-[500px] w-full lg:-order-last order-first lg:text-start text-center">
-            <h3 className=" text-indigo-500 text-2xl font-bold  leading-[30px]">
+            <h3 className=" text-indigo-500 lg:text-2xl text-base font-bold  leading-[30px]">
               #Let's Talk to us for
             </h3>
-            <h1 className=" text-zinc-700 text-[35px] font-bold leading-[50px]">
+            <h1 className=" text-zinc-700 lg:text-[35px] text-xl font-bold leading-[50px]">
               Make your Idea <span className="text-pink">a Reality</span>
             </h1>
             <p className="mt-5 text-zinc-700 text-lg font-light leading-7">

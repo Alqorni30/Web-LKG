@@ -3,13 +3,13 @@ import Image from "next/image";
 const Goals1 = () => {
   return (
     <>
-      <section id="goals" className=" pt-[100px] pb-[50px]  relative">
+      <section id="goals" className="lg:pt-[100px] pt-10 pb-[50px]  relative">
         <div className="text-center pb-[52px]">
           <span className="text-indigo-500 lg:text-2xl text-lg font-bold  leading-[30px]">
             #See how
             <br />
           </span>
-          <h3 className="text-zinc-700 lg:text-[40px] text-2xl font-bold  leading-[50px]">
+          <h3 className="text-zinc-700 lg:text-[40px] text-xl font-bold  leading-[50px]">
             We can help you reach your <span className="text-pink">goals</span>
           </h3>
         </div>

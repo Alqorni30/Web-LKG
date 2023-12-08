@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className=" px-20 py-[50px] lg:justify-between lg:items-start justify-between items-start md:justify-center md:items-center flex lg:flex-row flex-col gap-[30px]">
+        <div className="lg:px-20 px-10 py-[50px] lg:justify-between lg:items-start justify-between items-start md:justify-center md:items-center flex lg:flex-row flex-col gap-[30px]">
           <div className="flex-col justify-start items-start gap-[30px] flex">
             <div className="lg:w-[232px] w-full flex-col justify-center lg:items-start items-center gap-5 flex">
               <Image
@@ -68,7 +68,7 @@ const Footer = () => {
             </p>
             <div className="flex-col justify-start items-start gap-2.5 flex">
               <div className="justify-start items-center gap-2.5 flex">
-                <div className="w-[30px] h-[30px] relative">
+                <div className="w-[30px] h-[30px]">
                   <Image
                     className=""
                     width={30}
@@ -82,7 +82,7 @@ const Footer = () => {
                 </p>
               </div>
               <div className="justify-start items-center gap-2.5 flex">
-                <div className="w-[30px] h-[30px] relative">
+                <div className="w-[30px] h-[30px]">
                   <Image
                     className=""
                     width={30}
@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
 
         </div>
-        <div className="px-20">
+        <div className="lg:px-20 px-10">
           <hr className="border border-zinc-300 " />
           <p className="text-center py-[30px] text-zinc-700 text-sm ">
             Copyright © 2023 LayananKolaborasiGlobal
@@ -110,4 +110,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer

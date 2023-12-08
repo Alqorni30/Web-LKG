@@ -10,7 +10,7 @@ const Solutions = () => {
   };
   return (
     <>
-      <section id="solutions" className="pt-36 pb-24 lg:px-20 md:px-20 px-10">
+      <section id="solutions" className="pt-24 pb-24 lg:px-20 md:px-20 px-10">
         <div className="flex flex-col justify-center items-center mb-20">
           <h3 className="font-bold text-center text-primary lg:text-2xl text-base">
             Introducing
@@ -32,11 +32,11 @@ const Solutions = () => {
               className="w-[159px] h-[50px] px-5 py-2.5 bg-orange-50 rounded-[10px] border border-orange-400 justify-center items-center gap-2.5 inline-flex"
             >
               <div>
-                <span className="text-black text-xs font-semibold font-['Inter'] leading-[15px]">
+                <span className="text-black text-xs font-['Inter'] font-semibold leading-[15px]">
                   Project Management
                   <br />
                 </span>
-                <span className="text-black text-xs font-normal font-['Inter'] leading-[15px]">
+                <span className="text-black text-xs font-['Inter'] font-normal leading-[15px]">
                   Solution
                 </span>
               </div>
@@ -46,11 +46,11 @@ const Solutions = () => {
               className="w-[159px] h-[50px] px-5 py-2.5 bg-orange-50 rounded-[10px] border border-orange-400 justify-center items-center gap-2.5 inline-flex"
             >
               <div>
-                <span className="text-black text-xs font-semibold font-['Inter'] leading-[15px]">
+                <span className="text-black text-xs font-['Inter'] font-semibold leading-[15px]">
                   Human Resources
                   <br />
                 </span>
-                <span className="text-black text-xs font-normal font-['Inter'] leading-[15px]">
+                <span className="text-black text-xs font-['Inter'] font-normal leading-[15px]">
                   Solution
                 </span>
               </div>
@@ -60,11 +60,11 @@ const Solutions = () => {
               className="w-[159px] h-[50px] px-5 py-2.5 bg-orange-50 rounded-[10px] border border-orange-400 justify-center items-center gap-2.5 inline-flex"
             >
               <div>
-                <span className="text-black text-xs font-semibold font-['Inter'] leading-[15px]">
+                <span className="text-black font-['Inter'] text-xs font-semibold leading-[15px]">
                   Service Functions
                   <br />
                 </span>
-                <span className="text-black text-xs font-normal font-['Inter'] leading-[15px]">
+                <span className="text-black font-['Inter'] text-xs font-normal leading-[15px]">
                   as Needed
                 </span>
               </div>
@@ -163,10 +163,10 @@ const Solutions = () => {
             </button>
           </div>
 
-          <hr className="border h-96 border-r-2 border-hover border-dashed hidden md:block" />
+          <hr className="border h-[440px] border-r-2 border-hover border-dashed hidden md:block" />
           {selectedSection === "projectManagement" && (
             <div className=" flex-col lg:justify-start lg:items-start justify-center items-center gap-5 flex">
-              <div className="lg:flex justify-center items-center gap-12">
+              <div className="lg:flex gap-12">
                 <Image
                   className="mx-auto pb-3"
                   src={"/assets/layer 1.svg"}
@@ -199,13 +199,13 @@ const Solutions = () => {
 
               <div className="lg:w-[785px]  lg:h-[284px] relative flex  justify-center items-center lg:p-0 pb-[450px]">
                 <div className="w-[210px] h-[100px] lg:left-0 -left-[200px] top-0 absolute">
-                  <h2 className="lg:left-0 left-5 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
+                  <h2 className="left-0  top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     01
                   </h2>
-                  <p className="left-[48px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
+                  <p className="lg:left-[48px] left-[25px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Product Discovery
                   </p>
-                  <p className="lg:w-[210px] w-[150px] left-5 top-[40px] absolute text-zinc-700 text-xs font-normal  leading-tight">
+                  <p className="lg:w-[210px] w-[145px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal text-start leading-tight">
                     We break down your project into iterations to cover all of
                     the required functionality
                   </p>
@@ -223,25 +223,25 @@ const Solutions = () => {
                   </p>
                 </div>
                 <div className="w-[210px] h-[100px] lg:left-[575px] lg:top-0 -left-[200px] top-[340px] absolute">
-                  <h2 className="lg:left-0 left-5 top-0 absolute text-primary  text-base lg:text-[32px]  font-bold leading-10">
+                  <h2 className="left-0 top-0 absolute text-primary  text-base lg:text-[32px]  font-bold leading-10">
                     05
                   </h2>
-                  <p className="left-[53px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
+                  <p className="lg:left-[53px] left-[25px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Deployment & Support
                   </p>
-                  <p className="lg:w-[210px] w-[150px] left-5 lg:left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
+                  <p className="lg:w-[210px] w-[150px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
                     We will constantly improve and refactor to create stable
                     well-performing system
                   </p>
                 </div>
                 <div className="w-[210px] h-[100px] lg:left-[144px] lg:top-[184px] -left-[200px] top-[180px] absolute">
-                  <h2 className="lg:left-0 left-5 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
+                  <h2 className="left-0 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     02
                   </h2>
-                  <p className="left-[52px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
+                  <p className="lg:left-[48px] left-[25px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Product Design
                   </p>
-                  <p className="lg:w-[210px] w-[150px] left-5 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
+                  <p className="lg:w-[210px] w-[150px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
                     We bring logic and structure, looking for the simplest and
                     safest solutions that will minimize your costs
                   </p>
@@ -250,7 +250,7 @@ const Solutions = () => {
                   <h2 className="left-0 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     04
                   </h2>
-                  <p className="lg:left-[52px] left-10 top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
+                  <p className="lg:left-[52px] left-[23px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Test & Optimize
                   </p>
                   <p className="lg:w-[200px] w-[140px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
@@ -262,9 +262,9 @@ const Solutions = () => {
                   Thats All
                 </div>
 
-                <div className="lg:w-[727px] lg:h-[0px] w-0 h-[425px] lg:left-[6px] left-5 lg:top-[144px] top-[30px] absolute border border-rose-400"></div>
+                <div className="lg:w-[727px] lg:h-[0px] w-0 h-[425px] lg:left-[6px] left-0 lg:top-[144px] top-[30px] absolute border border-rose-400"></div>
 
-                <div className="w-5 h-10 left-0 top-2 lg:top-[114px] absolute lg:rotate-0 -rotate-90">
+                <div className="w-5 h-10 lg:left-0 right-0 top-2 lg:top-[114px] absolute lg:rotate-0 -rotate-90">
                   <Image
                     src={"/assets/Group 16.svg"}
                     alt="layer"
@@ -274,7 +274,7 @@ const Solutions = () => {
                   <div className="w-2.5 h-2.5 left-[5px] top-[25px] absolute bg-rose-400 rounded-full" />
                   <div className="w-5 h-5 left-0 top-[20px] absolute rounded-full border border-rose-400" />
                 </div>
-                <div className="w-5 h-10 lg:left-[144px] lg:top-[134px] top-[100px] left-5 lg:rotate-0 -rotate-90 absolute">
+                <div className="w-5 h-10 lg:left-[144px] lg:top-[134px] top-[100px] left-0 lg:rotate-0 -rotate-90 absolute">
                   <Image
                     src={"/assets/Group 15.svg"}
                     alt="layer"
@@ -284,7 +284,7 @@ const Solutions = () => {
                   <div className="w-2.5 h-2.5 left-[5px] top-[5px] absolute bg-rose-400 rounded-full" />
                   <div className="w-5 h-5 left-0 top-0 absolute rounded-full border border-rose-400" />
                 </div>
-                <div className="w-5 h-10 lg:left-[288px] lg:top-[114px] left-0 top-[180px] absolute lg:rotate-0 -rotate-90">
+                <div className="w-5 h-10 lg:left-[288px] lg:top-[114px] lg:right-0 right-0 top-[180px] absolute lg:rotate-0 -rotate-90">
                   <Image
                     src={"/assets/Group 16.svg"}
                     alt="layer"
@@ -294,7 +294,7 @@ const Solutions = () => {
                   <div className="w-2.5 h-2.5 left-[5px] top-[25px] absolute bg-rose-400 rounded-full" />
                   <div className="w-5 h-5 left-0 top-[20px] absolute rounded-full border border-rose-400" />
                 </div>
-                <div className="w-5 h-10 lg:left-[432px] lg:top-[134px] left-5 top-[270px] lg:rotate-0 -rotate-90 absolute">
+                <div className="w-5 h-10 lg:left-[432px] lg:top-[134px] left-0 top-[270px] lg:rotate-0 -rotate-90 absolute">
                   <Image
                     src={"/assets/Group 15.svg"}
                     alt="layer"
@@ -304,7 +304,7 @@ const Solutions = () => {
                   <div className="w-2.5 h-2.5 left-[5px] top-[5px] absolute bg-rose-400 rounded-full" />
                   <div className="w-5 h-5 left-0 top-0 absolute rounded-full border border-rose-400" />
                 </div>
-                <div className="w-5 h-10 lg:left-[575px] lg:top-[114px] left-0 top-[350px] absolute lg:rotate-0 -rotate-90">
+                <div className="w-5 h-10 lg:left-[575px] lg:top-[114px] right-0  top-[350px] absolute lg:rotate-0 -rotate-90">
                   <Image
                     src={"/assets/Group 16.svg"}
                     alt="layer"
@@ -314,7 +314,7 @@ const Solutions = () => {
                   <div className="w-2.5 h-2.5 left-[5px] top-[25px] absolute bg-rose-400 rounded-full" />
                   <div className="w-5 h-5 left-0 top-[20px] absolute rounded-full border border-rose-400" />
                 </div>
-                <div className="w-5 h-10 lg:left-[719px] lg:top-[134px] left-5 top-[430px] absolute lg:rotate-0 -rotate-90">
+                <div className="w-5 h-10 lg:left-[719px] lg:top-[134px] left-0 top-[430px] absolute lg:rotate-0 -rotate-90">
                   <Image
                     src={"/assets/Group 15.svg"}
                     alt="layer"
@@ -329,7 +329,7 @@ const Solutions = () => {
           )}
           {selectedSection === "humanResources" && (
             <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-10 flex ">
-              <div className=" justify-center items-center gap-12 lg:flex">
+              <div className="gap-12 lg:flex">
                 <Image
                   className="mx-auto pb-3"
                   src={"/assets/programmer.svg"}
@@ -347,9 +347,7 @@ const Solutions = () => {
                   <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-2.5  lg:text-start text-center">
                     <h3 className="text-zinc-700  text-2xl font-bold leading-[30px]">
                       Driving Business Digital{" "}
-                      <span className="text-pink text-2xl font-bold leading-[30px]">
-                        Transform
-                      </span>
+                      <span className="text-pink">Transform</span>
                     </h3>
                     <p className="w-full  text-zinc-700 text-sm font-normal leading-normal">
                       We can help you find the right functional service
@@ -420,7 +418,7 @@ const Solutions = () => {
           )}
           {selectedSection === "serviceFunctions" && (
             <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-10 flex">
-              <div className=" justify-center items-center gap-12 lg:flex">
+              <div className="gap-12 lg:flex">
                 <Image
                   className="mx-auto pb-3"
                   src={"/assets/videocall.svg"}
@@ -428,7 +426,7 @@ const Solutions = () => {
                   width={145}
                   height={120}
                 />
-                <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-[5px] inline-flex">
+                <div className="flex-col lg:justify-start lg:items-start justify-center items-center gap-[5px] flex">
                   <p className="text-zinc-700 text-sm font-normal leading-normal">
                     #Talk to us for{" "}
                     <span className="text-zinc-700 font-bold">
@@ -442,22 +440,23 @@ const Solutions = () => {
                         ur Needs
                       </span>
                     </h3>
-                    <p className="w-80 text-zinc-700 text-sm font-normal leading-normal">
+                    <p className="w-full text-zinc-700 text-sm font-normal leading-normal">
                       Looking for a team of expert or someone who will fit
                       perfectly in your own team? Then you should talk to me.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="flex flex-wrap lg:w-[787px] w-[380px] lg:justify-start lg:items-start justify-center items-center gap-[27px]">
+              
+              <div className="flex flex-wrap lg:w-[787px] w-full lg:justify-start lg:items-start justify-center items-center gap-[27px]">
                 <div className="px-5 py-2.5 bg-white rounded-[5px] shadow justify-start items-center gap-2.5 flex">
                   <div className="w-[60px] h-[60px] pl-[4.50px] pr-[4.33px] py-[3.75px] justify-center items-center flex">
                     <div className="w-[51.17px] h-[52.50px] relative">
                       <Image
                         src={"/assets/human1.svg"}
                         alt="human"
-                        width={145}
-                        height={120}
+                        width={51.17}
+                        height={52.50}
                       />
                     </div>
                   </div>
@@ -465,7 +464,7 @@ const Solutions = () => {
                     <p className="text-center text-indigo-500 text-base font-bold leading-tight">
                       Design Product
                     </p>
-                    <p className="w-[270px] text-indigo-500 text-sm font-normal leading-[17.50px]">
+                    <p className="lg:w-[270px] w-full text-indigo-500 text-sm font-normal leading-[17.50px]">
                       Shaping Great User Experiences through Creative Design.
                     </p>
                   </div>
@@ -476,16 +475,16 @@ const Solutions = () => {
                       <Image
                         src={"/assets/human1.svg"}
                         alt="human"
-                        width={145}
-                        height={120}
+                        width={51.17}
+                        height={52.50}
                       />
                     </div>
                   </div>
                   <div className="flex-col justify-start items-start gap-[5px] inline-flex">
-                    <p className="text-center text-primary text-base font-bold leading-tight">
+                    <p className="text-center text-indigo-500 text-base font-bold leading-tight">
                       Data Visualization
                     </p>
-                    <p className="w-[270px] text-primary text-sm font-normal leading-[17.50px]">
+                    <p className="lg:w-[270px] w-full text-primary text-sm font-normal leading-[17.50px]">
                       Turning Complex Data into Powerful Visual Insights.
                     </p>
                   </div>
@@ -496,16 +495,16 @@ const Solutions = () => {
                       <Image
                         src={"/assets/human1.svg"}
                         alt="human"
-                        width={145}
-                        height={120}
+                        width={51.17}
+                        height={52.50}
                       />
                     </div>
                   </div>
                   <div className="flex-col justify-start items-start gap-[5px] inline-flex">
-                    <p className="text-center text-primary text-base font-bold leading-tight">
+                    <p className="text-center text-indigo-500 text-base font-bold leading-tight">
                       Software Test
                     </p>
-                    <p className="w-[270px] text-primary text-sm font-normal leading-[17.50px]">
+                    <p className="lg:w-[270px] w-full text-primary text-sm font-normal leading-[17.50px]">
                       Ensuring Best Performance and Quality Assurance
                       Excellence.
                     </p>
@@ -517,16 +516,16 @@ const Solutions = () => {
                       <Image
                         src={"/assets/human1.svg"}
                         alt="human"
-                        width={145}
-                        height={120}
+                        width={51.17}
+                        height={52.50}
                       />
                     </div>
                   </div>
                   <div className="flex-col justify-start items-start gap-[5px] inline-flex">
-                    <p className="text-center text-primary text-base font-bold leading-tight">
+                    <p className="text-center text-indigo-500 text-base font-bold leading-tight">
                       Cloud Migration
                     </p>
-                    <p className="w-[270px] text-primary text-sm font-normal leading-[17.50px]">
+                    <p className="lg:w-[270px] w-full text-primary text-sm font-normal leading-[17.50px]">
                       Move Your Business to the Cloud Smoothly.
                     </p>
                   </div>

@@ -9,7 +9,7 @@ const Tech = () => {
           logies
         </h1>
         <div className="flex overflow-x-scroll pb-10 hide-scroll-bar ">
-          <div className="flex justify-center items-center content-center gap-5 lg:flex-wrap flex-nowrap">
+          <div className="flex justify-center items-center content-center lg:gap-5 gap-2 lg:flex-wrap flex-nowrap">
             <button className="py-2.5 flex justify-center items-center lg:gap-5 md:gap-[10px] gap-[5px] lg:px-[30px] px-[20px] lg:text-base text-xs bg-white rounded-[90px]">
               <Image
                 className="lg:w-[25px] lg:h-[25px] md:w-[21px] md:h-[21px] w-[12px] h-[12px]"
@@ -68,7 +68,7 @@ const Tech = () => {
                 alt="Node js 6"
                 src="/logotech/Nodejs 1.svg"
               />
-              Node{""}JS
+              NodeJS
             </button>
             <button className="py-2.5 flex justify-center items-center lg:gap-5 md:gap-[10px] gap-[5px] lg:px-[30px] px-[20px] lg:text-base text-xs bg-white rounded-[90px]">
               <Image
@@ -100,7 +100,7 @@ const Tech = () => {
               />
               Python
             </button>
-            <button className="py-2.5 flex justify-center items-center lg:gap-5 md:gap-[10px] gap-[5px] lg:px-[30px] px-[20px] lg:text-base text-xs bg-white rounded-[90px]">
+            <button className="py-2.5 flex flex-row justify-center items-center lg:gap-5 md:gap-[10px] gap-[5px] lg:px-[30px] px-[20px] lg:text-base text-[10px] bg-white rounded-[90px] ">
               <Image
                 className="lg:w-[25px] lg:h-[25px] md:w-[21px] md:h-[21px] w-[12px] h-[12px]"
                 width={25}

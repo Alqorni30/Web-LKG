@@ -5,7 +5,7 @@ const Challenges = () => {
     <>
       <section
         id="challenges"
-        className="w-full lg:pt-36 pt-12 pb-24 bg-zinc-950 flex-col items-center lg:gap-[145px] gap-10 inline-flex"
+        className="w-full lg:pt-36 pt-12 pb-24 bg-zinc-950 flex-col items-center gap-10 flex"
       >
         <h1 className="text-center lg:w-[920px] w-[370px]">
           <span className="text-pink md:text-2xl text-lg lg:text-4xl font-bold  lg:leading-[50px]">
@@ -21,7 +21,7 @@ const Challenges = () => {
             <h6 className="px-20 py-2.5 text-pink lg:text-start text-center font-bold text-lg leading-[30px]">
               Real Challenges Faced
             </h6>
-            <div className="gap-10 lg:px-20 px-16 flex  lg:flex-nowrap flex-wrap justify-center items-center">
+            <div className="gap-10 lg:px-20 px-16 flex lg:flex-nowrap flex-wrap justify-center items-center">
               <div className="w-[290px] h-[242px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex">
                 <div className="justify-center items-center flex">
                   <Image
