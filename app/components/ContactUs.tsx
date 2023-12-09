@@ -15,7 +15,7 @@ const ContactUs = () => {
             alt="Ant Sunset vol 1"
             src="/antimages/ant sunset vol 1-min.png"
           />
-          <button className="lg:w-[239.80px] lg:h-[70px] w-[150px] h-[45px] px-5 py-2.5 left-[180px] top-[143.44px] lg:left-[450px] lg:top-[254px] absolute bg-white rounded-[99px] justify-start items-center gap-5 inline-flex">
+          <button className="lg:w-[239.80px] lg:h-[70px] w-[160px] h-[45px] px-5 py-2.5 left-40 top-[143.44px] lg:left-[450px] lg:top-[254px] absolute bg-white rounded-[99px] justify-start items-center gap-5 inline-flex">
             <div className="justify-start items-center gap-2.5 inline-flex">
               <div className="w-[34.80px] h-[35px] ">
                 <Image
@@ -31,7 +31,7 @@ const ContactUs = () => {
               </p>
             </div>
             <Image
-              className="lg:w-[50px] lg:h-[50px] w-8 h-8 p-2.5 bg-white rounded-[999px] border border-indigo-500 flex-col justify-center items-center gap-2.5 flex"
+              className="lg:w-[50px] lg:h-[50px] w-8 h-8 p-2.5 bg-white rounded-[999px] border border-indigo-500 justify-center items-center flex"
               width={50}
               height={50}
               alt="arrow"
