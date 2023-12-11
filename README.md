@@ -1,7 +1,25 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
+
+## Persyaratan Sistem
+
+Sebelum memulai, pastikan sistem Anda memenuhi persyaratan berikut:
+
+- [Node.js](https://nodejs.org/) versi v20.10.0.
+- [npm](https://www.npmjs.com/) atau [Yarn](https://yarnpkg.com/)
+
+### Instalasi
+
+1. Clone repositori ini:
+
+   ```bash
+   git clone https://github.com/Alqorni30/Web-LKG.git
+   cd web-lkg/
+   npm install
+   ```
+
+## Getting Started
 First, run the development server:
 
 ```bash
