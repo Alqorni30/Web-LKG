@@ -13,7 +13,7 @@ const ContactUs = () => {
             width={580}
             height={350}
             alt="Ant Sunset vol 1"
-            src="/antimages/ant sunset vol 1-min.png"
+            src="/antimages/ant sunset vol 1.png"
           />
           <button className="lg:w-[239.80px] lg:h-[70px] w-[160px] h-[45px] px-5 py-2.5 left-40 top-[143.44px] lg:left-[450px] lg:top-[254px] absolute bg-white rounded-[99px] justify-start items-center gap-5 inline-flex">
             <div className="justify-start items-center gap-2.5 inline-flex">
