@@ -9,7 +9,7 @@ const ContactUs = () => {
       >
         <div className="relative order-last lg:order-first">
           <Image
-            className="lg:w-[580px] lg:h-[350px] md:w-[310px] md:h-[220px] w-[340px] h-[198.333px] bg-indigo-500 bg-opacity-30 rounded-[20px]"
+            className="lg:w-[580px] lg:h-[350px] md:w-[310px] md:h-[220px] w-full h-[198.333px] bg-indigo-500 bg-opacity-30 rounded-[20px]"
             width={580}
             height={350}
             alt="Ant Sunset vol 1"

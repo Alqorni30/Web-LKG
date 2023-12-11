@@ -51,7 +51,7 @@ const Hero = () => {
           />
         </div>
         <div className="flex justify-end items-end absolute inset-0">
-          <Image
+          <Image  
             src={"/assets/up.svg"}
             alt="up2"
             width={80}
