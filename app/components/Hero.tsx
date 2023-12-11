@@ -36,7 +36,7 @@ const Hero = () => {
         <div className="grid justify-center items-center relative">
           <span className="z-0 lg:w-[380px] lg:h-[380px] w-[200px] h-[200px] bg-primary rounded-full"></span>
           <Image
-            src={"/assets/Background 1.svg"}
+            src={"/assets/BACKGROUND 1.svg"}
             alt="background"
             width={445}
             height={440}

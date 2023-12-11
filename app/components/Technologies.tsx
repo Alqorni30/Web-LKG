@@ -36,7 +36,7 @@ const Tech = () => {
                 width={25}
                 height={25}
                 alt="angular3"
-                src="/logotech/angular 1.svg"
+                src="/logotech/Angular 1.svg"
               />
               Angular
             </button>
@@ -56,7 +56,7 @@ const Tech = () => {
                 width={25}
                 height={25}
                 alt="java5"
-                src="/logotech/Java-logo-1 1.svg"
+                src="/logotech/java-logo-1 1.svg"
               />
               Java
             </button>
@@ -96,7 +96,7 @@ const Tech = () => {
                 width={25}
                 height={25}
                 alt="Pyton 9"
-                src="/logotech/python 1.svg"
+                src="/logotech/Python 1.svg"
               />
               Python
             </button>
@@ -106,7 +106,7 @@ const Tech = () => {
                 width={25}
                 height={25}
                 alt="Huawei Cloud 10"
-                src="/logotech/Huawei.svg"
+                src="/logotech/huawei.svg"
               />
               Huawei Cloud
             </button>
@@ -126,7 +126,7 @@ const Tech = () => {
                 width={25}
                 height={25}
                 alt="kubernetes 12"
-                src="/logotech/kubernetes 1.svg"
+                src="/logotech/Kubernetes 1.svg"
               />
               Kubernetes
             </button>

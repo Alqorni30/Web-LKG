@@ -55,11 +55,10 @@ const Goals1 = () => {
           </p>
           <div className="w-[62.19px] h-[15px] left-[159px] lg:w-[121px] lg:h-[37px] lg:left-[633px] lg:top-[33.41px] top-[10px] absolute justify-center items-center gap-2.5 inline-flex">
             <Image
-              className=""
               width={52}
               height={27}
               alt="Logo Lkg"
-              src="/antimages/Logo lkg only 1.svg"
+              src="/antimages/Logo LKG Only 1.svg"
             />
             <div className="text-indigo-500 text-xs lg:text-base  leading-[15px]">
               LKG

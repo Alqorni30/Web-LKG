@@ -13,7 +13,7 @@ const Footer = () => {
                 width={72}
                 height={37}
                 alt="Logo Lkg"
-                src="/antimages/Logo lkg only 1.svg"
+                src="/antimages/Logo LKG Only 1.svg"
               />
               <div className="flex-col justify-center lg:items-start items-center gap-[5px] flex">
                 <h5 className="w-200px text-zinc-700 lg:text-sm text-lg font-bold leading-tight">

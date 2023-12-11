@@ -169,7 +169,7 @@ const Solutions = () => {
               <div className="lg:flex gap-12">
                 <Image
                   className="mx-auto pb-3"
-                  src={"/assets/layer 1.svg"}
+                  src={"/assets/Layer 1.svg"}
                   alt="layer"
                   width={142}
                   height={112}

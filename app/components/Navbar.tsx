@@ -23,10 +23,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center lg:px-20 px-8 gap-5">
           <div className="flex text-white gap-2 font-bold py-4">
             <Image
-              className="w-[72px] h-[37px]"
-              src="/antimages/Logo lkg only 1.svg"
-              width={100}
-              height={100}
+              src="/antimages/Logo LKG Only 1.svg"
+              width={72}
+              height={37}
               alt="Logo"
             />
             <Link href="/" className="lg:flex justify-center items-center hidden">

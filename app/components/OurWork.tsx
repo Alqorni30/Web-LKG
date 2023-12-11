@@ -18,7 +18,7 @@ const OurWork = () => {
             width={206}
             height={300}
             alt="simpananku1"
-            src="/ourwork/simpananku.svg"
+            src="/ourwork/Simpananku.svg"
           />
           <Image
             className="lg:w-[206.301px] lg:h-[300px]  lg:left-[914.13px] w-[68.13px] h-[99.07px] left-[301.87px] top-0 absolute"
@@ -32,14 +32,14 @@ const OurWork = () => {
             width={206}
             height={300}
             alt="kopkar3"
-            src="/ourwork/kopkar.svg"
+            src="/ourwork/Kopkar.svg"
           />
           <Image
             className="lg:w-[721.32px] lg:h-[350px] w-[238.20px] h-[115.58px] left-[24.44px] top-[31.70px] lg:left-[74px] lg:top-[96px] absolute"
             width={721}
             height={350}
             alt="mockup4"
-            src="/ourwork/mockup.svg"
+            src="/ourwork/Mockup.svg"
           />
         </div>
       </section>

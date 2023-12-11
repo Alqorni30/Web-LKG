@@ -17,22 +17,22 @@ const OurPartner = () => {
             className="lg:w-[256.20px] lg:h-20 w-[80.06px] h-[25px]"
             width={256}
             height={80}
-            alt="simpananku"
-            src="/ourpartner/logo aviana sinar abadi.svg"
+            alt="aviana sinar abadi"
+            src="/ourpartner/Logo Aviana Sinar Abadi.svg"
           />
           <Image
             className="lg:w-[311.69px] lg:h-20 w-[97.40px] h-[25px]"
             width={311}
             height={80}
-            alt="simpananku"
-            src="/ourpartner/logo irma biru.svg"
+            alt="Logo Irma biru"
+            src="/ourpartner/Logo Irma Biru.svg"
           />
           <Image
             className="lg:w-[298.41px] lg:h-20 w-[93.25px] h-[25px]"
             width={298}
             height={80}
-            alt="simpananku"
-            src="/ourpartner/logo pulsapro.svg"
+            alt="Logo pulsapro"
+            src="/ourpartner/Logo PulsaPro.svg"
           />
         </div>
       </section>

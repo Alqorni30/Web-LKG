@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Web-LKG",
   description: "Layanan Kolaborasi global",
   icons: {
-    icon: "/antimages/Logo lkg only 1.svg",
+    icon: "/antimages/Logo LKG Only 1.svg",
   },
 };
 
