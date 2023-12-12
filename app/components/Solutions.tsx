@@ -25,7 +25,7 @@ const Solutions = () => {
           </p>
         </div>
 
-        <div className="flex overflow-x-scroll pb-10 hide-scroll-bar lg:hidden md:hidden">
+        <div className="flex md:justify-center md:items-center overflow-x-scroll pb-10 hide-scroll-bar lg:hidden">
           <div className="flex justify-center items-center content-center gap-5 lg:flex-wrap flex-nowrap">
             <button
               onClick={() => handleButtonClick("projectManagement")}
@@ -73,7 +73,7 @@ const Solutions = () => {
         </div>
 
         <div className="justify-start items-start flex gap-[50px]">
-          <div className="flex-col justify-start items-start gap-[30px] lg:flex md:flex hidden">
+          <div className="flex-col justify-start items-start gap-[30px] lg:flex hidden">
             <button
               onClick={() => handleButtonClick("projectManagement")}
               className="flex justify-start items-start "
@@ -163,7 +163,7 @@ const Solutions = () => {
             </button>
           </div>
 
-          <hr className="border h-[440px] border-r-2 border-hover border-dashed hidden md:block" />
+          <hr className="border h-[440px] border-r-2 border-hover border-dashed hidden lg:block" />
           {selectedSection === "projectManagement" && (
             <div className=" flex-col lg:justify-start lg:items-start justify-center items-center gap-5 flex">
               <div className="lg:flex gap-12">
@@ -449,7 +449,7 @@ const Solutions = () => {
               </div>
               
               <div className="flex flex-wrap lg:w-[787px] w-full lg:justify-start lg:items-start justify-center items-center gap-[27px]">
-                <div className="px-5 py-2.5 bg-white rounded-[5px] shadow justify-start items-center gap-2.5 flex">
+                <div className="md:w-[340px] px-5 py-2.5 bg-white rounded-[5px] shadow justify-start items-center gap-2.5 flex">
                   <div className="w-[60px] h-[60px] pl-[4.50px] pr-[4.33px] py-[3.75px] justify-center items-center flex">
                     <div className="w-[51.17px] h-[52.50px] relative">
                       <Image
@@ -469,7 +469,7 @@ const Solutions = () => {
                     </p>
                   </div>
                 </div>
-                <div className="px-5 py-2.5 bg-white rounded-[5px] shadow justify-start items-center gap-2.5 flex">
+                <div className="md:w-[340px] px-5 py-2.5 bg-white rounded-[5px] shadow justify-start items-center gap-2.5 flex">
                   <div className="w-[60px] h-[60px] pl-[4.50px] pr-[4.33px] py-[3.75px] justify-center items-center flex">
                     <div className="w-[51.17px] h-[52.50px] relative">
                       <Image
@@ -489,7 +489,7 @@ const Solutions = () => {
                     </p>
                   </div>
                 </div>
-                <div className="px-5 py-2.5 bg-white rounded-[5px] shadow justify-start items-center gap-2.5 flex">
+                <div className="md:w-[340px] px-5 py-2.5 bg-white rounded-[5px] shadow justify-start items-center gap-2.5 flex">
                   <div className="w-[60px] h-[60px] pl-[4.50px] pr-[4.33px] py-[3.75px] justify-center items-center flex">
                     <div className="w-[51.17px] h-[52.50px] relative">
                       <Image
@@ -510,7 +510,7 @@ const Solutions = () => {
                     </p>
                   </div>
                 </div>
-                <div className="px-5 py-2.5 bg-white rounded-[5px] shadow justify-start items-center gap-2.5 flex">
+                <div className="md:w-[340px] px-5 py-2.5 bg-white rounded-[5px] shadow justify-start items-center gap-2.5 flex">
                   <div className="w-[60px] h-[60px] pl-[4.50px] pr-[4.33px] py-[3.75px] justify-center items-center flex">
                     <div className="w-[51.17px] h-[52.50px] relative">
                       <Image

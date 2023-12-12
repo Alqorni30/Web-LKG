@@ -29,9 +29,9 @@ const Footer = () => {
               Denpasar, Bali 80232
             </p>
           </div>
-          
-          <div className="flex-col justify-start items-start gap-5 flex">
-            <p className="text-justify text-neutral-400 text-sm font-normal leading-normal">
+
+          <div className="flex-col lg:justify-start md:hidden lg:items-start md:justify-start md:items-start gap-5 lg:flex ">
+            <p className=" text-neutral-400 text-sm font-normal leading-normal">
               MENU
             </p>
             <div className="flex-col justify-start items-start gap-2.5 flex">
@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex-col justify-start items-start gap-5 flex ">
+          <div className="flex-col lg:justify-start md:hidden lg:items-start md:justify-start md:items-start gap-5 lg:flex">
             <p className=" text-neutral-400 text-sm font-normal leading-normal">
               CONTACT
             </p>
@@ -98,7 +98,77 @@ const Footer = () => {
             </div>
           </div>
 
+          <div className="hidden md:flex justify-between gap-10 lg:hidden">
+            <div className="flex-col lg:justify-start lg:items-start md:justify-start md:items-start gap-5 flex ">
+              <p className=" text-neutral-400 text-sm font-normal leading-normal">
+                MENU
+              </p>
+              <div className="flex-col justify-start items-start gap-2.5 flex">
+                <Link
+                  href={"#about"}
+                  className="text-center text-zinc-700 text-sm font-normal leading-normal"
+                >
+                  About Us
+                </Link>
+                <Link
+                  href={"#culturecore"}
+                  className="text-center text-zinc-700 text-sm font-normal leading-normal"
+                >
+                  Culture & Core Values
+                </Link>
+                <Link
+                  href={"#challenges"}
+                  className="text-center text-zinc-700 text-sm font-normal leading-normal"
+                >
+                  Challenges
+                </Link>
+                <Link
+                  href={"#contact"}
+                  className="text-center text-zinc-700 text-sm font-normal leading-normal"
+                >
+                  Contact Us
+                </Link>
+              </div>
+            </div>
+
+            <div className="flex-col lg:justify-start lg:items-start md:justify-start md:items-start gap-5 flex">
+              <p className=" text-neutral-400 text-sm font-normal leading-normal">
+                CONTACT
+              </p>
+              <div className="flex-col justify-start items-start gap-2.5 flex">
+                <div className="justify-start items-center gap-2.5 flex">
+                  <div className="w-[30px] h-[30px]">
+                    <Image
+                      className=""
+                      width={30}
+                      height={30}
+                      alt="phone"
+                      src="/assets/phone.svg"
+                    />
+                  </div>
+                  <p className=" text-zinc-700 text-sm font-normal leading-normal">
+                    089 505 130 799
+                  </p>
+                </div>
+                <div className="justify-start items-center gap-2.5 flex">
+                  <div className="w-[30px] h-[30px]">
+                    <Image
+                      className=""
+                      width={30}
+                      height={30}
+                      alt="streamline"
+                      src="/assets/streamline.svg"
+                    />
+                  </div>
+                  <p className=" text-zinc-700 text-sm font-normal leading-normal">
+                    miftah@kolaborasiglobal.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
         <div className="lg:px-20 px-10">
           <hr className="border border-zinc-300 " />
           <p className="text-center py-[30px] text-zinc-700 text-sm ">
@@ -110,4 +180,4 @@ const Footer = () => {
   );
 };
 
-export default Footer
+export default Footer;

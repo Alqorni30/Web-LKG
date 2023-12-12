@@ -16,9 +16,9 @@ const Challenges = () => {
           </span>
         </h1>
 
-        <div className="w-full flex-col flex">
+        <div className="w-full container flex-col flex">
           <div className="flex-col justify-center gap-10 flex">
-            <h6 className="px-20 py-2.5 text-pink lg:text-start text-center font-bold text-lg leading-[30px]">
+            <h6 className="px-20 py-2.5 text-pink gap-10 lg:px-20 flex justify-center items-center lg:justify-start lg:items-start font-bold text-lg leading-[30px]">
               Real Challenges Faced
             </h6>
             <div className="gap-10 lg:px-20 px-16 flex lg:flex-nowrap flex-wrap justify-center items-center">

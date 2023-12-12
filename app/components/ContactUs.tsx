@@ -5,11 +5,11 @@ const ContactUs = () => {
     <>
       <section
         id="contact"
-        className="px-20 py-[75px] bg-green-50 justify-start items-start flex lg:flex-row flex-col gap-20"
+        className="px-20 py-[75px] bg-green-50 justify-start items-start flex lg:flex-row flex-col gap-20 2xl:w-full"
       >
         <div className="relative order-last lg:order-first">
           <Image
-            className="lg:w-[580px] lg:h-[350px] md:w-[310px] md:h-[220px] w-full h-[198.333px] bg-indigo-500 bg-opacity-30 rounded-[20px]"
+            className="lg:w-[580px] lg:h-[350px] md:w-[310px] md:h-[220px] w-full h-[198.333px] bg-indigo-500 bg-opacity-30 rounded-[20px] flex justify-center items-center"
             width={580}
             height={350}
             alt="Ant Sunset vol 1"
