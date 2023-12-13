@@ -12,23 +12,23 @@ const OurPartner = () => {
             Our <span className="text-zinc-700 font-bold">Partner</span>
           </h1>
         </div>
-        <div className="flex lg:w-full w-[430px] justify-between items-start px-[30px] py-0">
+        <div className="flex xl:w-full w-[430px] justify-between items-start px-[30px] py-0">
           <Image
-            className="lg:w-[256.20px] lg:h-20 w-[80.06px] h-[25px]"
+            className="xl:w-[256.20px] xl:h-20 w-[80.06px] h-[25px]"
             width={256}
             height={80}
             alt="aviana sinar abadi"
             src="/ourpartner/Logo Aviana Sinar Abadi.svg"
           />
           <Image
-            className="lg:w-[311.69px] lg:h-20 w-[97.40px] h-[25px]"
+            className="xl:w-[311.69px] xl:h-20 w-[97.40px] h-[25px]"
             width={311}
             height={80}
             alt="Logo Irma biru"
             src="/ourpartner/Logo Irma Biru.svg"
           />
           <Image
-            className="lg:w-[298.41px] lg:h-20 w-[93.25px] h-[25px]"
+            className="xl:w-[298.41px] xl:h-20 w-[93.25px] h-[25px]"
             width={298}
             height={80}
             alt="Logo pulsapro"

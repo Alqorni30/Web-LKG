@@ -22,7 +22,7 @@ const Challenges = () => {
               Real Challenges Faced
             </h6>
             <div className="gap-10 lg:px-20 px-16 flex lg:flex-nowrap flex-wrap justify-center items-center">
-              <div className="w-[290px] h-[242px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex">
+              <div className="lg:w-[300px] w-[300px] h-[242px] lg:h-[300px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex justify-center items-center">
                 <div className="justify-center items-center flex">
                   <Image
                     src={"/assets/human.svg"}
@@ -41,7 +41,7 @@ const Challenges = () => {
                 </div>
               </div>
 
-              <div className="lg:w-[290px] w-[300px] h-[242px] lg:h-[242px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex">
+              <div className="lg:w-[300px] w-[300px] h-[242px] lg:h-[300px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex justify-center items-center">
                 <div className="justify-center items-center flex">
                   <Image
                     src={"/assets/static.svg"}
@@ -54,14 +54,14 @@ const Challenges = () => {
                   <h4 className="text-center text-white text-base font-bold leading-[25px]">
                     Scalability and Flexibility
                   </h4>
-                  <p className="text-center text-white text-sm font-normal leading-normal">
+                  <p className="text-center text-white text-sm ">
                     Challenges of adapting to development demands and capacity
                     constraints of internal teams.
                   </p>
                 </div>
               </div>
 
-              <div className="w-[290px] h-[242px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex">
+              <div className="lg:w-[300px] w-[300px] h-[242px] lg:h-[300px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex justify-center items-center">
                 <div className="justify-center items-center flex">
                   <Image
                     src={"/assets/focus.svg"}
@@ -81,7 +81,7 @@ const Challenges = () => {
                 </div>
               </div>
 
-              <div className="w-[290px] h-[242px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex">
+              <div className="lg:w-[300px] w-[300px] h-[242px] lg:h-[300px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex justify-center items-center">
                 <div className="pl-2 pr-[8.41px] pb-[0.88px] justify-center items-center flex">
                   <Image
                     src={"/assets/skill.svg"}

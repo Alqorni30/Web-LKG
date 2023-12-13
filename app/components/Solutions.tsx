@@ -25,7 +25,7 @@ const Solutions = () => {
           </p>
         </div>
 
-        <div className="flex md:justify-center md:items-center overflow-x-scroll pb-10 hide-scroll-bar lg:hidden">
+        <div className="flex md:justify-center md:items-center overflow-x-scroll pb-10 hide-scroll-bar xl:hidden">
           <div className="flex justify-center items-center content-center gap-5 lg:flex-wrap flex-nowrap">
             <button
               onClick={() => handleButtonClick("projectManagement")}
@@ -73,7 +73,7 @@ const Solutions = () => {
         </div>
 
         <div className="justify-start items-start flex gap-[50px]">
-          <div className="flex-col justify-start items-start gap-[30px] lg:flex hidden">
+          <div className="flex-col justify-start items-start gap-[30px] xl:flex hidden">
             <button
               onClick={() => handleButtonClick("projectManagement")}
               className="flex justify-start items-start "
