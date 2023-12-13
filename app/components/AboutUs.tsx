@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <>
       <section id="about" className="w-full px-4 sm:px-6 md:px-8 py-8 md:py-16 lg:py-24">
-        <div className="container mx-auto lg:grid grid-cols-1 lg:grid-cols-3 gap-8 ">
+        <div className="container mx-auto max-w-7xl lg:grid grid-cols-1 lg:grid-cols-3 gap-8 ">
           <div className="lg:col-span-2 p-5">
             <h3 className="lg:text-left text-center font-bold text-primary text-xl md:text-2xl lg:text-2xl mb-3 md:mb-5">
               Who we are?

@@ -3,7 +3,7 @@ import Image from "next/image";
 const OurWork = () => {
   return (
     <>
-      <section className="container mx-auto px-20 lg:pt-[600px] pt-[400px] flex-col justify-start items-center gap-[50px] flex">
+      <section className="max-w-7xl container mx-auto px-20 lg:pt-[600px] pt-[400px] flex-col justify-start items-center gap-[50px] flex">
         <div className="text-center">
           <h4 className="text-rose-400 lg:text-[40px] text-xl font-bold leading-[50px]">
             Our{" "}

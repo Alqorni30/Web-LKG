@@ -5,7 +5,7 @@ const Challenges = () => {
     <>
       <section
         id="challenges"
-        className="w-full container mx-auto lg:pt-36 pt-12 pb-24 bg-zinc-950 flex-col items-center gap-10 flex"
+        className="max-w-7xl container mx-auto lg:pt-36 pt-12 pb-24 bg-zinc-950 flex-col items-center gap-10 flex"
       >
         <h1 className="text-center lg:w-[920px] w-[370px]">
           <span className="text-pink md:text-2xl text-lg lg:text-4xl font-bold  lg:leading-[50px]">

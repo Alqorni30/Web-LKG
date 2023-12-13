@@ -10,7 +10,7 @@ const Solutions = () => {
   };
   return (
     <>
-      <section id="solutions" className="container mx-auto pt-24 pb-24 lg:px-20 md:px-20 px-10">
+      <section id="solutions" className="max-w-7xl container mx-auto pt-24 pb-24 lg:px-20 md:px-20 px-10">
         <div className="flex flex-col justify-center items-center mb-20">
           <h3 className="font-bold text-center text-primary lg:text-2xl text-base">
             Introducing

@@ -4,7 +4,7 @@ const AboutCard = () => {
   return (
     <>
       <section id="culturecore" className="pt-12">
-        <div className="container mx-auto">
+        <div className="max-w-7xl container mx-auto">
           <h1 className="font-bold text-center md:text-2xl text-xl lg:text-4xl">
             Culture & Core <span className="text-pink">Values</span>
           </h1>

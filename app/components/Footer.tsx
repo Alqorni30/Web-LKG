@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="container mx-auto lg:px-20 px-10 py-[50px] lg:justify-between lg:items-start justify-between items-start md:justify-center md:items-center flex lg:flex-row flex-col gap-[30px]">
+        <div className="max-w-7xl container mx-auto lg:px-20 px-10 py-[50px] lg:justify-between lg:items-start justify-between items-start md:justify-center md:items-center flex lg:flex-row flex-col gap-[30px]">
           <div className="flex-col justify-start items-start gap-[30px] flex">
             <div className="lg:w-[232px] w-full flex-col justify-center lg:items-start items-center gap-5 flex">
               <Image

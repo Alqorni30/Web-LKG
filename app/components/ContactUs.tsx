@@ -5,7 +5,7 @@ const ContactUs = () => {
     <>
       <section
         id="contact"
-        className="px-20 py-[75px] container mx-auto bg-green-50 md:justify-center md:items-center justify-start items-start flex lg:flex-row flex-col gap-20"
+        className="px-20 py-[75px] max-w-7xl container mx-auto bg-green-50 md:justify-center md:items-center justify-start items-start flex lg:flex-row flex-col gap-20"
       >
         <div className="relative order-last lg:order-first">
           <Image

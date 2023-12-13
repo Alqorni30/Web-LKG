@@ -5,7 +5,7 @@ const Goals1 = () => {
     <>
       <section
         id="goals"
-        className="lg:pt-[100px] pt-10 pb-[50px] container mx-auto"
+        className="lg:pt-[100px] pt-10 pb-[50px] max-w-7xl container mx-auto"
       >
         <div className="text-center pb-[52px]">
           <span className="text-indigo-500 lg:text-2xl text-lg font-bold  leading-[30px]">
