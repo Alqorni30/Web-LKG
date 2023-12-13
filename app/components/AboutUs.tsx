@@ -31,7 +31,7 @@ const AboutUs = () => {
               width={440}
               height={338}
               alt="Group28"
-              className=""
+              className="xl:w-[440px] xl:h-[338px] lg:w-[370px] lg:h-[280px] "
             />
           </div>
         </div>

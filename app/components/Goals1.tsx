@@ -17,7 +17,7 @@ const Goals1 = () => {
           </h3>
         </div>
 
-        <div className="relative px-10">
+        <div className="relative px-2">
           <div className="xl:w-[1100px] lg:w-full md:w-[700px] h-[362px] 2xl:left-[130px] absolute">
             <div className="w-[120px] h-[362px] md:left-[210px] lg:left-[260px] xl:w-[380px] md:w-[280px] left-[130px] xl:left-[493px] lg:w-[380px] xl:h-[554px] top-0 absolute bg-orange-50" />
             <h3 className="left-0 top-[64px] xl:top-[125.41px] absolute text-indigo-500 xl:text-2xl text-[10px]  leading-3">

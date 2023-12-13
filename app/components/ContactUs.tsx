@@ -15,7 +15,7 @@ const ContactUs = () => {
             alt="Ant Sunset vol 1"
             src="/antimages/Ant Sunset Vol 1.png"
           />
-          <button className="xl:w-[239.80px] xl:h-[70px] w-[160px] h-[45px] px-5 py-2.5 left-40 top-[143.44px] xl:left-[450px] xl:top-[254px] md:left-[250px] md:top-[165px] absolute bg-white rounded-[99px] justify-start items-center gap-5 inline-flex">
+          <button className="xl:w-[239.80px] xl:h-[70px] w-[160px] h-[45px] px-5 py-2.5 left-28 top-[143.44px] xl:left-[450px] xl:top-[250px] md:left-[250px] md:top-[165px] absolute bg-white rounded-[99px] justify-start items-center gap-5 inline-flex">
             <div className="justify-start items-center gap-2.5 inline-flex">
               <div className="w-[34.80px] h-[35px] ">
                 <Image
@@ -40,7 +40,7 @@ const ContactUs = () => {
           </button>
         </div>
 
-        <div>
+        <div className="xl:mb-24">
           <div className="xl:w-[500px] w-full xl:-order-last order-first xl:text-start text-center">
             <h3 className=" text-indigo-500 xl:text-2xl text-base font-bold  leading-[30px]">
               #Let's Talk to us for
