@@ -162,7 +162,7 @@ const Footer = () => {
                     />
                   </div>
                   <p className=" text-zinc-700 text-sm font-normal leading-normal">
-                    miftah@kolaborasiglobal.com
+                    miftah.lkg@gmail.com
                   </p>
                 </div>
               </div>

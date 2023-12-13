@@ -198,67 +198,67 @@ const Solutions = () => {
               </div>
 
               <div className="lg:w-[785px]  lg:h-[284px] relative flex  justify-center items-center lg:p-0 pb-[450px]">
-                <div className="w-[210px] h-[100px] lg:left-0 -left-[200px] top-0 absolute">
-                  <h2 className="left-0  top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
+                <div className="w-[210px] h-[100px] lg:left-0 -left-[170px] top-0 absolute">
+                  <h2 className="left-0 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     01
                   </h2>
                   <p className="lg:left-[48px] left-[25px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Product Discovery
                   </p>
-                  <p className="lg:w-[210px] w-[145px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal text-start leading-tight">
+                  <p className="lg:w-[210px] xs:w-[130px] md:w-[145px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal text-start leading-tight">
                     We break down your project into iterations to cover all of
                     the required functionality
                   </p>
                 </div>
-                <div className="lg:w-[210px] w-[140px] h-[100px] lg:left-[288px] left-14 top-24 lg:top-0 absolute">
+                <div className="lg:w-[210px] w-[140px] h-[100px] lg:left-[288px] left-11 top-24 lg:top-0 absolute">
                   <h2 className="left-0 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     03
                   </h2>
                   <p className="lg:left-[52px] left-[23px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Product Development
                   </p>
-                  <p className="lg:w-[210px] w-[145px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal text-start leading-tight">
+                  <p className="lg:w-[210px] xs:w-[130px] md:w-[145px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal text-start leading-tight">
                     We write code to agreed standards, it's pair programmed and
                     continuously integrated
                   </p>
                 </div>
-                <div className="w-[210px] h-[100px] lg:left-[575px] lg:top-0 -left-[200px] top-[340px] absolute">
+                <div className="w-[210px] h-[100px] lg:left-[575px] lg:top-0 -left-[170px] top-[340px] absolute">
                   <h2 className="left-0 top-0 absolute text-primary  text-base lg:text-[32px]  font-bold leading-10">
                     05
                   </h2>
                   <p className="lg:left-[53px] left-[25px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Deployment & Support
                   </p>
-                  <p className="lg:w-[210px] w-[150px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
+                  <p className="lg:w-[210px] xs:w-[130px] md:w-[145px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
                     We will constantly improve and refactor to create stable
                     well-performing system
                   </p>
                 </div>
-                <div className="w-[210px] h-[100px] lg:left-[144px] lg:top-[184px] -left-[200px] top-[180px] absolute">
+                <div className="w-[210px] h-[100px] lg:left-[144px] lg:top-[184px] -left-[170px] top-[180px] absolute">
                   <h2 className="left-0 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     02
                   </h2>
                   <p className="lg:left-[48px] left-[25px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Product Design
                   </p>
-                  <p className="lg:w-[210px] w-[150px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
+                  <p className="lg:w-[210px] xs:w-[130px] md:w-[145px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
                     We bring logic and structure, looking for the simplest and
                     safest solutions that will minimize your costs
                   </p>
                 </div>
-                <div className="lg:w-[210px] w-[140px] h-[100px] lg:left-[432px] lg:top-[184px] left-[60px] top-[270px] absolute ">
+                <div className="lg:w-[210px] w-[140px] h-[100px] lg:left-[432px] lg:top-[184px] left-11 top-[270px] absolute ">
                   <h2 className="left-0 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     04
                   </h2>
                   <p className="lg:left-[52px] left-[23px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Test & Optimize
                   </p>
-                  <p className="lg:w-[200px] w-[140px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
+                  <p className="lg:w-[200px] xs:w-[130px] md:w-[145px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
                     Project goes through a series of tests, to determine if the
                     developed features works
                   </p>
                 </div>
-                <div className="lg:left-[719px] lg:top-[192px] left-[60px] top-[440px] absolute text-zinc-700 text-sm font-bold  leading-normal">
+                <div className="lg:left-[719px] lg:top-[192px] left-11 top-[440px] absolute text-zinc-700 text-sm font-bold  leading-normal">
                   Thats All
                 </div>
 

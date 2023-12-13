@@ -12,7 +12,7 @@ const OurPartner = () => {
             Our <span className="text-zinc-700 font-bold">Partner</span>
           </h1>
         </div>
-        <div className="flex xl:w-full w-[430px] justify-between items-start px-[30px] py-0">
+        <div className="flex justify-center items-center gap-10">
           <Image
             className="xl:w-[256.20px] xl:h-20 w-[80.06px] h-[25px]"
             width={256}

@@ -9,13 +9,13 @@ const ContactUs = () => {
       >
         <div className="relative order-last xl:order-first">
           <Image
-            className="xl:w-[580px] xl:h-[350px] md:w-[310px] md:h-[220px] w-full h-[198.333px] bg-indigo-500 bg-opacity-50 rounded-[20px] flex justify-center items-center"
+            className="xl:w-[580px] xl:h-[350px] md:w-[310px] md:h-[220px] xs:w-[full] xs:h-[180px] w-full h-[198.333px] bg-indigo-500 bg-opacity-50 rounded-[20px] flex justify-center items-center"
             width={580}
             height={350}
             alt="Ant Sunset vol 1"
             src="/antimages/Ant Sunset Vol 1.png"
           />
-          <button className="xl:w-[239.80px] xl:h-[70px] w-[160px] h-[45px] px-5 py-2.5 left-28 top-[143.44px] xl:left-[450px] xl:top-[250px] md:left-[250px] md:top-[165px] absolute bg-white rounded-[99px] justify-start items-center gap-5 inline-flex">
+          <button className="xl:w-[239.80px] xl:h-[70px] w-[160px] h-[45px] px-5 py-2.5 m:left-40 left-32 top-[145px] xl:left-[450px] xl:top-[250px] md:left-[250px] md:top-[165px] m:top-[120px] xs:top-[125px] absolute bg-white rounded-[99px] justify-start items-center gap-5 inline-flex">
             <div className="justify-start items-center gap-2.5 inline-flex">
               <div className="w-[34.80px] h-[35px] ">
                 <Image

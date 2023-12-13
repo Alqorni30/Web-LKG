@@ -10,7 +10,7 @@ const AboutCard = () => {
           </h1>
           <div className="flex justify-center items-center py-12">
             <div className="gap-7 flex justify-center items-center lg:flex-nowrap flex-wrap px-20 w-full">
-              <div className="lg:w-[290px] lg:h-[390px] md:w-[290px] md:h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
+              <div className=" lg:w-[290px] lg:h-[390px] md:w-[290px] md:h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
                 <div className="w-20 h-20 justify-center items-center inline-flex">
                 <Image src={"/assets/square.svg"} alt="square" width={80} height={80} />
                 </div>
@@ -18,7 +18,7 @@ const AboutCard = () => {
                   <div className="self-stretch text-zinc-700 text-xl font-bold  leading-[25px]">
                     Expertise & Experience in the industry
                   </div>
-                  <div className="self-stretch text-justify text-zinc-700 text-sm font-normal  leading-normal">
+                  <div className="self-stretch  text-zinc-700 text-sm font-normal  leading-normal">
                     Have in-depth understanding in various industrial sectors
                   </div>
                 </div>
@@ -32,7 +32,7 @@ const AboutCard = () => {
                   <div className="self-stretch text-zinc-700 text-xl font-bold  leading-[25px]">
                     Responsive & collaborative
                   </div>
-                  <div className="self-stretch text-justify text-zinc-700 text-sm font-normal  leading-normal">
+                  <div className="self-stretch  text-zinc-700 text-sm font-normal  leading-normal">
                     An active, transparent and customer-oriented approach with
                     an effective and efficient methodology
                   </div>
@@ -47,7 +47,7 @@ const AboutCard = () => {
                   <div className="self-stretch text-zinc-700 text-xl font-bold  leading-[25px]">
                     Focuses on Client Success
                   </div>
-                  <div className="self-stretch text-justify text-zinc-700 text-sm font-normal  leading-normal">
+                  <div className="self-stretch  text-zinc-700 text-sm font-normal  leading-normal">
                     Our mission is to deliver high quality software development
                     services and achieve the business goals
                   </div>
@@ -62,7 +62,7 @@ const AboutCard = () => {
                   <div className="self-stretch text-zinc-700 text-xl font-bold  leading-[25px]">
                     Community Support
                   </div>
-                  <div className="self-stretch text-justify text-zinc-700 text-sm font-normal  leading-normal">
+                  <div className="self-stretch  text-zinc-700 text-sm font-normal  leading-normal">
                     Immediate access to the latest knowledge and expertise in
                     the industry
                   </div>
@@ -73,7 +73,7 @@ const AboutCard = () => {
                   width={125}
                   height={50}
                 />
-                  <div className="self-stretch text-justify text-zinc-700 text-sm font-normal  leading-normal">
+                  <div className="self-stretch  text-zinc-700 text-sm font-normal  leading-normal">
                     ant collaboration with 1000+ devs member
                   </div>
                 </div>

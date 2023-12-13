@@ -47,7 +47,7 @@ const Hero = () => {
               alt="up1"
               width={80}
               height={80}
-              className="hidden lg:flex absolute z-10 lg:top-1/2 lg:right-80 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/3 lg:ml-10 lg:mt-20"
+              className="hidden lg:flex absolute z-10 lg:top-1/2 xl:right-72 lg:right-40 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/3 lg:ml-10 lg:mt-20"
             />
           </div>
           <div className="flex justify-end items-end absolute inset-0">
