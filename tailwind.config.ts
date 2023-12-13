@@ -16,10 +16,9 @@ const config: Config = {
       theme: {
         container: {
           center: true,
-          padding: "20px",
+          padding: "16px",
         },
       },
-      plugins: [],
       colors: {
         hover: "#EEF1F9",
         primary: "#5976C6",

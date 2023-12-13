@@ -4,13 +4,13 @@ const AboutCard = () => {
   return (
     <>
       <section id="culturecore" className="pt-12">
-        <div className="">
+        <div className="container mx-auto">
           <h1 className="font-bold text-center md:text-2xl text-xl lg:text-4xl">
             Culture & Core <span className="text-pink">Values</span>
           </h1>
           <div className="flex justify-center items-center py-12">
             <div className="gap-7 flex justify-center items-center lg:flex-nowrap flex-wrap px-20 w-full">
-              <div className="lg:w-[290px] lg:h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
+              <div className="lg:w-[290px] lg:h-[390px] md:w-[290px] md:h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
                 <div className="w-20 h-20 justify-center items-center inline-flex">
                 <Image src={"/assets/square.svg"} alt="square" width={80} height={80} />
                 </div>
@@ -24,7 +24,7 @@ const AboutCard = () => {
                 </div>
               </div>
               
-              <div className="lg:w-[290px] lg:h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
+              <div className="lg:w-[290px] lg:h-[390px] md:w-[290px] md:h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
                 <div className="w-20 h-20 justify-center items-center inline-flex">
                 <Image src={"/assets/circle.svg"} alt="circle" width={80} height={80} />
                 </div>
@@ -39,7 +39,7 @@ const AboutCard = () => {
                 </div>
               </div>
 
-              <div className="lg:w-[290px] lg:h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
+              <div className="lg:w-[290px] lg:h-[390px] md:w-[290px] md:h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
                 <div className="w-20 h-20 justify-center items-center inline-flex">
                 <Image src={"/assets/flower.svg"} alt="flower" width={80} height={80} />
                 </div>
@@ -54,7 +54,7 @@ const AboutCard = () => {
                 </div>
               </div>
 
-              <div className="lg:w-[290px] lg:h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
+              <div className="lg:w-[290px] lg:h-[390px] md:w-[290px] md:h-[390px] px-5 py-[30px] bg-card rounded-[20px] flex-col justify-start items-start gap-5 inline-flex">
                 <div className="w-20 h-20 justify-center items-center inline-flex">
                 <Image src={"/assets/line.svg"} alt="line" width={80} height={80} />
                 </div>

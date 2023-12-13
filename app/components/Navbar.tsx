@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="bg-white w-full shadow-md fixed z-20 ">
-        <div className="flex justify-between items-center lg:px-20 px-8 gap-5">
+        <div className=" container mx-auto flex justify-between items-center lg:px-20 px-8 gap-5">
           <div className="flex text-white gap-2 font-bold py-4">
             <Image
               src="/antimages/Logo LKG Only 1.svg"

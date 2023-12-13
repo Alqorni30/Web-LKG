@@ -5,17 +5,17 @@ const ContactUs = () => {
     <>
       <section
         id="contact"
-        className="px-20 py-[75px] bg-green-50 justify-start items-start flex lg:flex-row flex-col gap-20 2xl:w-full"
+        className="px-20 py-[75px] container mx-auto bg-green-50 md:justify-center md:items-center justify-start items-start flex lg:flex-row flex-col gap-20"
       >
         <div className="relative order-last lg:order-first">
           <Image
-            className="lg:w-[580px] lg:h-[350px] md:w-[310px] md:h-[220px] w-full h-[198.333px] bg-indigo-500 bg-opacity-30 rounded-[20px] flex justify-center items-center"
+            className="lg:w-[580px] lg:h-[350px] md:w-[310px] md:h-[220px] w-full h-[198.333px] bg-indigo-500 bg-opacity-50 rounded-[20px] flex justify-center items-center"
             width={580}
             height={350}
             alt="Ant Sunset vol 1"
             src="/antimages/Ant Sunset Vol 1.png"
           />
-          <button className="lg:w-[239.80px] lg:h-[70px] w-[160px] h-[45px] px-5 py-2.5 left-40 top-[143.44px] lg:left-[450px] lg:top-[254px] absolute bg-white rounded-[99px] justify-start items-center gap-5 inline-flex">
+          <button className="lg:w-[239.80px] lg:h-[70px] w-[160px] h-[45px] px-5 py-2.5 left-40 top-[143.44px] lg:left-[450px] lg:top-[254px] md:left-[250px] md:top-[165px] absolute bg-white rounded-[99px] justify-start items-center gap-5 inline-flex">
             <div className="justify-start items-center gap-2.5 inline-flex">
               <div className="w-[34.80px] h-[35px] ">
                 <Image

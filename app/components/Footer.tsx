@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="lg:px-20 px-10 py-[50px] lg:justify-between lg:items-start justify-between items-start md:justify-center md:items-center flex lg:flex-row flex-col gap-[30px]">
+        <div className="container mx-auto lg:px-20 px-10 py-[50px] lg:justify-between lg:items-start justify-between items-start md:justify-center md:items-center flex lg:flex-row flex-col gap-[30px]">
           <div className="flex-col justify-start items-start gap-[30px] flex">
             <div className="lg:w-[232px] w-full flex-col justify-center lg:items-start items-center gap-5 flex">
               <Image
@@ -97,8 +97,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
-          <div className="hidden md:flex justify-between gap-10 lg:hidden">
+           
+           {/* tampilan md */}
+          <div className="hidden md:flex justify-between gap-20 lg:hidden">
             <div className="flex-col lg:justify-start lg:items-start md:justify-start md:items-start gap-5 flex ">
               <p className=" text-neutral-400 text-sm font-normal leading-normal">
                 MENU
@@ -169,7 +170,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="lg:px-20 px-10">
+        <div className="lg:px-20 px-10 container mx-auto">
           <hr className="border border-zinc-300 " />
           <p className="text-center py-[30px] text-zinc-700 text-sm ">
             Copyright © 2023 LayananKolaborasiGlobal

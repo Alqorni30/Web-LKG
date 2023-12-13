@@ -3,7 +3,7 @@ import Image from "next/image";
 const Tech = () => {
   return (
     <>
-      <section className="flex flex-col bg-gray-200 m-auto p-auto gap-[50px] lg:px-10 px-5 py-[50px]">
+      <section className="flex flex-col bg-gray-200 container mx-auto p-auto gap-[50px] lg:px-10 px-5 py-[50px]">
         <h1 className="text-center text-zinc-700 lg:text-[40px] text-xl font-bold leading-[50px]">
           <span className="text-pink">Techno</span>
           logies
