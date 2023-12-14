@@ -1,7 +1,20 @@
+"use client";
 import Image from "next/image";
 import { IoCheckmarkOutline } from "react-icons/io5";
 
 const Hero = () => {
+  const scrollToBottom = () => {
+    const sections = ["about", "challenges", "solutions", "goals", "contact"];
+    for (const sectionId of sections) {
+      const section = document.getElementById(sectionId);
+      if (section && window.scrollY < section.offsetTop) {
+        section.scrollIntoView({
+          behavior: "smooth",
+        });
+        break;
+      }
+    }
+  };
   return (
     <>
       <section className="pt-28 text-center mb-20">
@@ -42,15 +55,20 @@ const Hero = () => {
               height={440}
               className="lg:w-[450px] lg:h-[430px] w-[250px] h-[240px] bg-transparent absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
-            <Image
-              src={"/assets/up.svg"}
-              alt="up1"
-              width={80}
-              height={80}
-              className="hidden lg:flex absolute z-10 lg:top-1/2 xl:right-72 lg:right-40 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/3 lg:ml-10 lg:mt-20"
-            />
+            <button onClick={scrollToBottom}>
+              <Image
+                src={"/assets/up.svg"}
+                alt="up1"
+                width={80}
+                height={80}
+                className="hidden lg:flex absolute z-10 lg:top-1/2 xl:right-72 lg:right-40 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/3 lg:ml-10 lg:mt-20"
+              />
+            </button>
           </div>
-          <div className="flex justify-end items-end absolute inset-0">
+          <button
+            onClick={scrollToBottom}
+            className="flex justify-end items-end absolute inset-0"
+          >
             <Image
               src={"/assets/up.svg"}
               alt="up2"
@@ -58,7 +76,7 @@ const Hero = () => {
               height={80}
               className="z-10 mb-10 xs:mb-10 s:mb-2 lg:hidden fixed"
             />
-          </div>
+          </button>
         </div>
       </section>
     </>
