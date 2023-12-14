@@ -7,7 +7,7 @@ const Challenges = () => {
         id="challenges"
         className="max-w-7xl container mx-auto lg:pt-36 pt-12 pb-24 bg-zinc-950 flex-col items-center gap-10 flex"
       >
-        <h1 className="text-center lg:w-[920px] w-[370px]">
+        <h1 className="text-center lg:w-[920px] s:w-[280px] xs:w-[370px] w-[370px]">
           <span className="text-pink md:text-2xl text-lg lg:text-4xl font-bold  lg:leading-[50px]">
             Challenges of Digitalization{" "}
           </span>
@@ -22,7 +22,7 @@ const Challenges = () => {
               Real Challenges Faced
             </h6>
             <div className="gap-10 lg:px-20 px-16 flex lg:flex-nowrap flex-wrap justify-center items-center">
-              <div className="lg:w-[300px] w-[300px] h-[242px] lg:h-[300px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex justify-center items-center">
+              <div className="lg:w-[300px] s:w-[300px] s:h-[250px] xs:w-[300px] xs:h-[242px] w-[300px] h-[242px] lg:h-[300px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex justify-center items-center">
                 <div className="justify-center items-center flex">
                   <Image
                     src={"/assets/human.svg"}
@@ -41,7 +41,7 @@ const Challenges = () => {
                 </div>
               </div>
 
-              <div className="lg:w-[300px] w-[300px] h-[242px] lg:h-[300px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex justify-center items-center">
+              <div className="lg:w-[300px] s:w-[300px] s:h-[280px] xs:w-[300px] xs:h-[242px] w-[300px] h-[242px] lg:h-[300px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex justify-center items-center">
                 <div className="justify-center items-center flex">
                   <Image
                     src={"/assets/static.svg"}
@@ -61,7 +61,7 @@ const Challenges = () => {
                 </div>
               </div>
 
-              <div className="lg:w-[300px] w-[300px] h-[242px] lg:h-[300px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex justify-center items-center">
+              <div className="lg:w-[300px] s:w-[300px] s:h-[280px] xs:w-[300px] xs:h-[242px] w-[300px] h-[242px] lg:h-[300px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex justify-center items-center">
                 <div className="justify-center items-center flex">
                   <Image
                     src={"/assets/focus.svg"}
@@ -81,7 +81,7 @@ const Challenges = () => {
                 </div>
               </div>
 
-              <div className="lg:w-[300px] w-[300px] h-[242px] lg:h-[300px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex justify-center items-center">
+              <div className="lg:w-[300px] s:w-[300px] s:h-[280px] xs:w-[300px] xs:h-[242px] w-[300px] h-[242px] lg:h-[300px] p-5 bg-neutral-900 rounded-[20px] flex-col gap-5 flex justify-center items-center">
                 <div className="pl-2 pr-[8.41px] pb-[0.88px] justify-center items-center flex">
                   <Image
                     src={"/assets/skill.svg"}

@@ -13,20 +13,20 @@ const Hero = () => {
             <h1 className="font-bold lg:text-5xl md:text-4xl text-2xl ">
               IT Outsourcing Sollution
             </h1>
-            <p className="lg:text-sm lg:w-1/3 w-80 text-xs">
+            <p className="lg:text-sm lg:w-1/3 w-80 xs:w-80 s:w-64 text-xs">
               Just focus on carrying out the mission to achieve your business
               success, we help in business digitization.
             </p>
-            <div className="flex lg:gap-6 gap-2">
-              <p className="flex gap-1 justify-center items-center font-bold lg:text-xs text-[10px] ">
+            <div className="flex lg:gap-6 gap-2 ">
+              <p className="flex gap-1 justify-center items-center font-bold lg:text-xs xs:text-[10px] s:text-[8px] text-[10px] ">
                 <IoCheckmarkOutline />
                 Project<span className="text-pink">Management</span>
               </p>
-              <p className="flex gap-1 justify-center items-center font-bold lg:text-xs text-[10px]">
+              <p className="flex gap-1 justify-center items-center font-bold lg:text-xs xs:text-[10px] s:text-[8px] text-[10px]">
                 <IoCheckmarkOutline />
                 Human<span className="text-pink">Resources</span>
               </p>
-              <p className="flex gap-1 justify-center items-center font-bold lg:text-xs text-[10px]">
+              <p className="flex gap-1 justify-center items-center font-bold lg:text-xs xs:text-[10px] s:text-[8px] text-[10px]">
                 <IoCheckmarkOutline />
                 Service
                 <span className="text-pink">Functions</span>
@@ -56,7 +56,7 @@ const Hero = () => {
               alt="up2"
               width={80}
               height={80}
-              className="z-10 mb-10 lg:hidden fixed"
+              className="z-10 mb-10 xs:mb-10 s:mb-2 lg:hidden fixed"
             />
           </div>
         </div>

@@ -15,11 +15,11 @@ const Solutions = () => {
           <h3 className="font-bold text-center text-primary lg:text-2xl text-base">
             Introducing
           </h3>
-          <h1 className="font-bold text-center lg:w-[930px] w-[370px] lg:text-4xl md:text-2xl text-xl">
+          <h1 className="font-bold text-center lg:w-[930px] s:w-[280px] xs:w-[370px] w-[370px] lg:text-4xl md:text-2xl text-xl">
             <span className="text-pink">Solutions</span> to your business
             digitization problems
           </h1>
-          <p className="lg:w-[650px] w-[370px] text-center text-zinc-700 lg:text-lg text-sm font-light pt-5">
+          <p className="lg:w-[650px] s:w-[280px] xs:w-[370px] w-[370px] text-center text-zinc-700 lg:text-lg text-sm font-light pt-5">
             We solve the problem of Business Digitization by helping to provide
             services according to your needs.
           </p>
@@ -198,7 +198,7 @@ const Solutions = () => {
               </div>
 
               <div className="lg:w-[785px]  lg:h-[284px] relative flex  justify-center items-center lg:p-0 pb-[450px]">
-                <div className="w-[210px] h-[100px] lg:left-0 -left-[170px] top-0 absolute">
+                <div className="s:w-[130px] s:-left-[150px] xs:-left-[170px] xs:w-[210px] m:-left-[180px] w-[210px] h-[100px] lg:left-0 -left-[170px] top-0 absolute">
                   <h2 className="left-0 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     01
                   </h2>
@@ -210,31 +210,31 @@ const Solutions = () => {
                     the required functionality
                   </p>
                 </div>
-                <div className="lg:w-[210px] w-[140px] h-[100px] lg:left-[288px] left-11 top-24 lg:top-0 absolute">
+                <div className="lg:w-[210px] w-[140px] h-[100px] lg:left-[288px] s:w-[120px] xs:w-[140px] s:left-8 xs:left-11 left-11 top-24 lg:top-0 absolute">
                   <h2 className="left-0 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     03
                   </h2>
                   <p className="lg:left-[52px] left-[23px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Product Development
                   </p>
-                  <p className="lg:w-[210px] xs:w-[130px] md:w-[145px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal text-start leading-tight">
+                  <p className="lg:w-[210px] xs:w-[130px] md:w-[145px] left-0 s:top-[50px] xs:top-[40px] top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal text-start leading-tight">
                     We write code to agreed standards, it's pair programmed and
                     continuously integrated
                   </p>
                 </div>
-                <div className="w-[210px] h-[100px] lg:left-[575px] lg:top-0 -left-[170px] top-[340px] absolute">
+                <div className="s:w-[130px] s:-left-[150px] xs:-left-[170px] xs:w-[210px] m:-left-[180px] w-[210px] h-[100px] lg:left-[575px] lg:top-0 -left-[170px] top-[340px] absolute">
                   <h2 className="left-0 top-0 absolute text-primary  text-base lg:text-[32px]  font-bold leading-10">
                     05
                   </h2>
                   <p className="lg:left-[53px] left-[25px] top-[13px] absolute text-zinc-700 text-[10px] lg:text-sm font-bold  leading-normal">
                     Deployment & Support
                   </p>
-                  <p className="lg:w-[210px] xs:w-[130px] md:w-[145px] left-0 top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
+                  <p className="lg:w-[210px] xs:w-[130px] md:w-[145px] left-0 s:top-[55px] xs:top-[40px] top-[40px] absolute text-zinc-700 text-[10px] lg:text-xs font-normal  leading-tight">
                     We will constantly improve and refactor to create stable
                     well-performing system
                   </p>
                 </div>
-                <div className="w-[210px] h-[100px] lg:left-[144px] lg:top-[184px] -left-[170px] top-[180px] absolute">
+                <div className="s:w-[130px] s:-left-[150px] xs:-left-[170px] xs:w-[210px] m:-left-[180px] w-[210px] h-[100px] lg:left-[144px] lg:top-[184px] -left-[170px] top-[180px] absolute">
                   <h2 className="left-0 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     02
                   </h2>
@@ -246,7 +246,7 @@ const Solutions = () => {
                     safest solutions that will minimize your costs
                   </p>
                 </div>
-                <div className="lg:w-[210px] w-[140px] h-[100px] lg:left-[432px] lg:top-[184px] left-11 top-[270px] absolute ">
+                <div className="lg:w-[210px] w-[140px] h-[100px] lg:left-[432px] lg:top-[184px] left-11 top-[270px] absolute s:w-[120px] xs:w-[140px] s:left-8 xs:left-11">
                   <h2 className="left-0 top-0 absolute text-primary text-base lg:text-[32px]  font-bold  leading-10">
                     04
                   </h2>

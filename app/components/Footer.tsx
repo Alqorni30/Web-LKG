@@ -16,7 +16,7 @@ const Footer = () => {
                 src="/antimages/Logo LKG Only 1.svg"
               />
               <div className="flex-col justify-center lg:items-start items-center gap-[5px] flex">
-                <h5 className="w-200px text-zinc-700 lg:text-sm text-lg font-bold leading-tight">
+                <h5 className="w-200px text-zinc-700 lg:text-sm s:text-base xs:text-lg text-lg font-bold leading-tight">
                   PT. Layanan Kolaborasi Global
                 </h5>
                 <h6 className="text-zinc-700  text-sm font-normal leading-[17.50px]">
